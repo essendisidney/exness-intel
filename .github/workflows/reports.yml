@@ -1,0 +1,53 @@
+name: Scheduled reports
+# 03:55 / 15:55 UTC = 06:55 / 18:55 EAT. GitHub may start scheduled runs a few
+# minutes late, so the report lands around 07:00 / 19:00 EAT.
+on:
+  schedule:
+    - cron: '55 3 * * *'
+    - cron: '55 15 * * *'
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: morning | evening
+        required: true
+        default: morning
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: journal
+  cancel-in-progress: false
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Pick report kind
+        id: kind
+        run: |
+          if [ -n "${{ github.event.inputs.kind }}" ]; then echo "kind=${{ github.event.inputs.kind }}" >> $GITHUB_OUTPUT;
+          elif [ "$(date -u +%H)" -lt 12 ]; then echo "kind=morning" >> $GITHUB_OUTPUT;
+          else echo "kind=evening" >> $GITHUB_OUTPUT; fi
+      - name: Run report
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NOTIFY_MENTION: ${{ github.repository_owner }}
+        run: python -m exness_intel.run ${{ steps.kind.outputs.kind }}
+      - name: Persist journal and report
+        if: always()
+        run: |
+          git config user.name "exness-intel-bot"
+          git config user.email "actions@users.noreply.github.com"
+          rm -f data/mt5_snapshot.json.gz
+          git add data reports
+          git diff --cached --quiet && exit 0
+          git commit -m "${{ steps.kind.outputs.kind }} report $(date -u +%FT%H%MZ)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done; exit 1

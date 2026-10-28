@@ -1,0 +1,37 @@
+name: Intraday monitor
+# Every 2 hours at :25 UTC, Sunday-Friday. Alerts only on state changes.
+on:
+  schedule:
+    - cron: '25 */2 * * 0-5'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: journal
+  cancel-in-progress: false
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m exness_intel.run monitor
+      - if: always()
+        run: |
+          git config user.name "exness-intel-bot"
+          git config user.email "actions@users.noreply.github.com"
+          rm -f data/mt5_snapshot.json.gz
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "monitor $(date -u +%FT%H%MZ)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done; exit 1
