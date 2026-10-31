@@ -2,7 +2,7 @@
  "XAUUSD": {
   "key": "XAUUSD",
   "broker_symbol": "XAUUSD",
-  "ts": "2026-10-31T09:59:17.743346+00:00",
+  "ts": "2026-10-31T19:36:42.681178+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "bearish",
@@ -13,14 +13,14 @@
   "spread": null,
   "entry_trigger": "M15 close below 3879.30 with RSI <50 and MACD hist <0",
   "entry": 3879.3,
-  "stop": 4012.8,
-  "tp1": 3612.3,
-  "tp2": 3478.8,
+  "stop": 4012.82,
+  "tp1": 3612.26,
+  "tp2": 3478.75,
   "rr": 2.0,
   "rr_to_obstacle": null,
   "holding": "intraday to 2 days (H1 setup)",
-  "invalidation": "H1 close above 4012.8 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-10-31T21:59:17.743346+00:00",
+  "invalidation": "H1 close above 4012.82 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
+  "expires_utc": "2026-11-01T07:36:42.681178+00:00",
   "event": "",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
@@ -34,7 +34,7 @@
    "H1 ATR at 92.5th percentile"
   ],
   "reasons_wait": [
-   "data stale (779 min old)",
+   "data stale (1357 min old)",
    "market closed: weekend close",
    "score 59 below 60"
   ],
@@ -53,20 +53,20 @@
   "risk": {
    "equity": 28.82,
    "max_loss_allowed": 0.14,
-   "stop_distance": 133.5,
+   "stop_distance": 133.52,
    "tick_size": 0.01,
    "tick_value_per_lot": 1.0,
    "contract_size": 100,
    "min_lot": 0.01,
-   "loss_per_min_lot": 133.95,
+   "loss_per_min_lot": 133.97,
    "allowed_lots": 0.0,
    "planned_lots": 0.0,
-   "max_loss_at_stop": 133.95,
+   "max_loss_at_stop": 133.97,
    "spread_cost": 0.25,
    "slippage_cost": 0.2,
    "required_margin": 19.4,
    "executable": false,
-   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$133.95 at this stop vs $0.14 budget",
+   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$133.97 at this stop vs $0.14 budget",
    "specs_verified": false
   },
   "executable": false,
@@ -133,38 +133,38 @@
    },
    "H4": {
     "close": 3898.9,
-    "ema20": 3996.84,
+    "ema20": 3996.86,
     "ema50": 4044.14,
-    "ema200": 4169.92,
+    "ema200": 4169.63,
     "rsi14": 21.7,
-    "macd_hist": -15.427,
-    "atr14": 31.13,
-    "bb_upper": 4136.04,
-    "bb_lower": 3904.33,
+    "macd_hist": -15.433,
+    "atr14": 31.14,
+    "bb_upper": 4136.06,
+    "bb_lower": 3904.34,
     "bias": -1
    },
    "H1": {
     "close": 3898.9,
     "ema20": 3948.54,
-    "ema50": 3991.3,
-    "ema200": 4054.02,
-    "rsi14": 22.2,
-    "macd_hist": -6.602,
-    "atr14": 18.0,
-    "bb_upper": 4053.23,
-    "bb_lower": 3866.44,
+    "ema50": 3991.27,
+    "ema200": 4054.01,
+    "rsi14": 22.4,
+    "macd_hist": -6.599,
+    "atr14": 18.09,
+    "bb_upper": 4053.33,
+    "bb_lower": 3866.45,
     "bias": -1
    },
    "M15": {
     "close": 3898.9,
-    "ema20": 3897.97,
-    "ema50": 3927.18,
-    "ema200": 3992.28,
+    "ema20": 3897.99,
+    "ema50": 3927.2,
+    "ema200": 3992.29,
     "rsi14": 45.4,
-    "macd_hist": 3.177,
+    "macd_hist": 3.172,
     "atr14": 9.16,
-    "bb_upper": 3909.58,
-    "bb_lower": 3878.12,
+    "bb_upper": 3909.62,
+    "bb_lower": 3878.14,
     "bias": -1
    },
    "structure": {
@@ -174,7 +174,7 @@
     "H4_last_event": "CHoCH bearish @ 4036.9",
     "H1_divergence": null,
     "H1_sweeps": 0,
-    "M15_candle": null,
+    "M15_candle": "bullish_engulfing",
     "volatility": {
      "regime": "high",
      "percentile": 92.5
@@ -185,7 +185,7 @@
  "XAGUSD": {
   "key": "XAGUSD",
   "broker_symbol": "XAGUSD",
-  "ts": "2026-10-31T09:59:17.743346+00:00",
+  "ts": "2026-10-31T19:36:42.681178+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "bearish",
@@ -203,7 +203,7 @@
   "rr_to_obstacle": null,
   "holding": "intraday to 2 days (H1 setup)",
   "invalidation": "H1 close above 51.941 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-10-31T21:59:17.743346+00:00",
+  "expires_utc": "2026-11-01T07:36:42.681178+00:00",
   "event": "",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
@@ -214,7 +214,7 @@
    "fundamentals: DXY 20d trend down, US10Y 20d trend down; gold/silver ratio 79.4"
   ],
   "reasons_wait": [
-   "data stale (779 min old)",
+   "data stale (1357 min old)",
    "market closed: weekend close",
    "trend agrees but no H1 pullback/retest setup"
   ],
@@ -270,8 +270,8 @@
    "fvg_h1": [
     {
      "dir": "bearish",
-     "top": 51.89,
-     "bottom": 51.715
+     "top": 51.865,
+     "bottom": 51.85
     },
     {
      "dir": "bearish",
@@ -313,38 +313,38 @@
    },
    "H4": {
     "close": 49.276,
-    "ema20": 51.851,
-    "ema50": 53.732,
-    "ema200": 58.497,
-    "rsi14": 18.7,
-    "macd_hist": -0.3346,
+    "ema20": 51.852,
+    "ema50": 53.734,
+    "ema200": 58.489,
+    "rsi14": 18.8,
+    "macd_hist": -0.3337,
     "atr14": 0.777,
-    "bb_upper": 55.985,
-    "bb_lower": 48.879,
+    "bb_upper": 55.981,
+    "bb_lower": 48.883,
     "bias": -1
    },
    "H1": {
     "close": 49.276,
-    "ema20": 50.194,
+    "ema20": 50.196,
     "ema50": 51.448,
     "ema200": 54.051,
-    "rsi14": 27.6,
-    "macd_hist": -0.0348,
+    "rsi14": 28.0,
+    "macd_hist": -0.0344,
     "atr14": 0.432,
-    "bb_upper": 52.038,
-    "bb_lower": 48.526,
+    "bb_upper": 52.046,
+    "bb_lower": 48.524,
     "bias": -1
    },
    "M15": {
     "close": 49.276,
-    "ema20": 49.25,
-    "ema50": 49.727,
+    "ema20": 49.251,
+    "ema50": 49.728,
     "ema200": 51.469,
     "rsi14": 47.4,
     "macd_hist": 0.0627,
     "atr14": 0.195,
-    "bb_upper": 49.405,
-    "bb_lower": 48.919,
+    "bb_upper": 49.408,
+    "bb_lower": 48.917,
     "bias": -1
    },
    "structure": {
@@ -365,7 +365,7 @@
  "USOIL": {
   "key": "USOIL",
   "broker_symbol": "USOIL",
-  "ts": "2026-10-31T09:59:17.743346+00:00",
+  "ts": "2026-10-31T19:36:42.681178+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "bullish",
@@ -376,14 +376,14 @@
   "spread": null,
   "entry_trigger": "M15 close above 104.180 with RSI >50 and MACD hist >0",
   "entry": 104.21,
-  "stop": 103.109,
-  "tp1": 106.412,
-  "tp2": 107.513,
+  "stop": 103.107,
+  "tp1": 106.417,
+  "tp2": 107.52,
   "rr": 2.0,
   "rr_to_obstacle": 0.71,
   "holding": "intraday to 2 days (H1 setup)",
-  "invalidation": "H1 close below 103.109 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-10-31T21:59:17.743346+00:00",
+  "invalidation": "H1 close below 103.107 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
+  "expires_utc": "2026-11-01T07:36:42.681178+00:00",
   "event": "",
   "supporting": [
    "D1 and H4 EMA stacks both bullish",
@@ -394,10 +394,10 @@
   ],
   "contrary": [
    "nearest opposing level only 0.71R away",
-   "H1 ATR at 93.3th percentile"
+   "H1 ATR at 96.7th percentile"
   ],
   "reasons_wait": [
-   "data stale (779 min old)",
+   "data stale (1357 min old)",
    "market closed: weekend close",
    "only 0.71R of room to the nearest resistance",
    "score 57 below 60"
@@ -417,20 +417,20 @@
   "risk": {
    "equity": 28.82,
    "max_loss_allowed": 0.14,
-   "stop_distance": 1.101,
+   "stop_distance": 1.103,
    "tick_size": 0.001,
    "tick_value_per_lot": 1.0,
    "contract_size": 1000,
    "min_lot": 0.01,
-   "loss_per_min_lot": 11.51,
+   "loss_per_min_lot": 11.53,
    "allowed_lots": 0.0,
    "planned_lots": 0.0,
-   "max_loss_at_stop": 11.51,
+   "max_loss_at_stop": 11.53,
    "spread_cost": 0.3,
    "slippage_cost": 0.2,
    "required_margin": 5.21,
    "executable": false,
-   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$11.51 at this stop vs $0.14 budget",
+   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$11.53 at this stop vs $0.14 budget",
    "specs_verified": false
   },
   "executable": false,
@@ -479,7 +479,7 @@
     {
      "type": "demand",
      "top": 102.93,
-     "bottom": 102.56
+     "bottom": 102.44
     }
    ],
    "latest_m15_bar_utc": "2026-10-30T20:45:00+00:00"
@@ -499,38 +499,38 @@
    },
    "H4": {
     "close": 104.12,
-    "ema20": 102.605,
-    "ema50": 101.034,
-    "ema200": 96.134,
+    "ema20": 102.604,
+    "ema50": 101.032,
+    "ema200": 96.13,
     "rsi14": 60.1,
-    "macd_hist": 0.129,
-    "atr14": 1.524,
-    "bb_upper": 104.76,
-    "bb_lower": 99.865,
+    "macd_hist": 0.1289,
+    "atr14": 1.525,
+    "bb_upper": 104.759,
+    "bb_lower": 99.866,
     "bias": 1
    },
    "H1": {
     "close": 104.12,
-    "ema20": 103.695,
-    "ema50": 102.906,
-    "ema200": 100.697,
-    "rsi14": 55.2,
-    "macd_hist": -0.088,
-    "atr14": 0.855,
-    "bb_upper": 104.898,
-    "bb_lower": 102.794,
+    "ema20": 103.69,
+    "ema50": 102.901,
+    "ema200": 100.695,
+    "rsi14": 55.1,
+    "macd_hist": -0.0869,
+    "atr14": 0.867,
+    "bb_upper": 104.911,
+    "bb_lower": 102.767,
     "bias": 1
    },
    "M15": {
     "close": 104.12,
     "ema20": 103.731,
-    "ema50": 103.79,
-    "ema200": 102.848,
+    "ema50": 103.789,
+    "ema200": 102.847,
     "rsi14": 54.6,
-    "macd_hist": -0.0745,
+    "macd_hist": -0.0744,
     "atr14": 0.455,
-    "bb_upper": 105.248,
-    "bb_lower": 102.671,
+    "bb_upper": 105.247,
+    "bb_lower": 102.672,
     "bias": 0
    },
    "structure": {
@@ -543,7 +543,7 @@
     "M15_candle": null,
     "volatility": {
      "regime": "high",
-     "percentile": 93.3
+     "percentile": 96.7
     }
    }
   }
@@ -551,7 +551,7 @@
  "UKOIL": {
   "key": "UKOIL",
   "broker_symbol": "UKOIL",
-  "ts": "2026-10-31T09:59:17.743346+00:00",
+  "ts": "2026-10-31T19:36:42.681178+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "bullish",
@@ -562,14 +562,14 @@
   "spread": null,
   "entry_trigger": "M15 close above 113.510 with RSI >50 and MACD hist >0",
   "entry": 113.54,
-  "stop": 112.586,
-  "tp1": 115.448,
-  "tp2": 116.403,
+  "stop": 112.584,
+  "tp1": 115.452,
+  "tp2": 116.408,
   "rr": 2.0,
   "rr_to_obstacle": 0.87,
   "holding": "intraday to 2 days (H1 setup)",
-  "invalidation": "H1 close below 112.586 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-10-31T21:59:17.743346+00:00",
+  "invalidation": "H1 close below 112.584 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
+  "expires_utc": "2026-11-01T07:36:42.681178+00:00",
   "event": "",
   "supporting": [
    "D1 and H4 EMA stacks both bullish",
@@ -583,7 +583,7 @@
    "H1 ATR at 92.5th percentile"
   ],
   "reasons_wait": [
-   "data stale (779 min old)",
+   "data stale (1357 min old)",
    "market closed: weekend close",
    "only 0.87R of room to the nearest resistance"
   ],
@@ -602,20 +602,20 @@
   "risk": {
    "equity": 28.82,
    "max_loss_allowed": 0.14,
-   "stop_distance": 0.954,
+   "stop_distance": 0.956,
    "tick_size": 0.001,
    "tick_value_per_lot": 1.0,
    "contract_size": 1000,
    "min_lot": 0.01,
-   "loss_per_min_lot": 10.04,
+   "loss_per_min_lot": 10.06,
    "allowed_lots": 0.0,
    "planned_lots": 0.0,
-   "max_loss_at_stop": 10.04,
+   "max_loss_at_stop": 10.06,
    "spread_cost": 0.3,
    "slippage_cost": 0.2,
    "required_margin": 5.68,
    "executable": false,
-   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$10.04 at this stop vs $0.14 budget",
+   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$10.06 at this stop vs $0.14 budget",
    "specs_verified": false
   },
   "executable": false,
@@ -648,11 +648,6 @@
      "dir": "bullish",
      "top": 110.46,
      "bottom": 110.22
-    },
-    {
-     "dir": "bullish",
-     "top": 111.43,
-     "bottom": 111.1
     }
    ],
    "zones_h1": [
@@ -669,7 +664,7 @@
     {
      "type": "demand",
      "top": 111.65,
-     "bottom": 111.2
+     "bottom": 111.08
     }
    ],
    "latest_m15_bar_utc": "2026-10-30T20:45:00+00:00"
@@ -690,23 +685,23 @@
    "H4": {
     "close": 113.43,
     "ema20": 111.783,
-    "ema50": 110.645,
-    "ema200": 105.229,
+    "ema50": 110.646,
+    "ema200": 105.231,
     "rsi14": 59.7,
     "macd_hist": 0.2461,
-    "atr14": 1.525,
+    "atr14": 1.532,
     "bb_upper": 113.905,
     "bb_lower": 108.961,
     "bias": 1
    },
    "H1": {
     "close": 113.43,
-    "ema20": 112.888,
-    "ema50": 112.018,
-    "ema200": 110.401,
-    "rsi14": 56.9,
-    "macd_hist": -0.0723,
-    "atr14": 0.871,
+    "ema20": 112.887,
+    "ema50": 112.015,
+    "ema200": 110.4,
+    "rsi14": 56.8,
+    "macd_hist": -0.0721,
+    "atr14": 0.881,
     "bb_upper": 114.314,
     "bb_lower": 111.717,
     "bias": 1
@@ -714,12 +709,12 @@
    "M15": {
     "close": 113.43,
     "ema20": 113.063,
-    "ema50": 113.047,
-    "ema200": 111.959,
+    "ema50": 113.046,
+    "ema200": 111.958,
     "rsi14": 54.6,
-    "macd_hist": -0.081,
+    "macd_hist": -0.0808,
     "atr14": 0.435,
-    "bb_upper": 114.502,
+    "bb_upper": 114.5,
     "bb_lower": 112.07,
     "bias": 1
    },
