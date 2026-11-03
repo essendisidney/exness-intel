@@ -2,70 +2,71 @@
  "XAUUSD": {
   "key": "XAUUSD",
   "broker_symbol": "XAUUSD",
-  "ts": "2026-11-03T11:25:17.517296+00:00",
+  "ts": "2026-11-03T21:19:43.517976+00:00",
   "signal": "WAIT",
-  "state": "NO SETUP",
+  "state": "MARKET CLOSED",
   "direction_text": "bearish",
-  "regime": "bearish",
-  "price": 3917.9,
+  "regime": "bearish, breaking previous-day range",
+  "price": 3932.1,
   "bid": null,
   "ask": null,
   "spread": null,
-  "entry_trigger": "M15 close below 3909.40 with RSI <50 and MACD hist <0",
-  "entry": 3909.4,
-  "stop": 3977.38,
-  "tp1": 3773.44,
-  "tp2": 3705.45,
+  "entry_trigger": "Confirmed on last completed M15 candle; entry at market",
+  "entry": 3932.1,
+  "stop": 3984.75,
+  "tp1": 3826.81,
+  "tp2": 3774.16,
   "rr": 2.0,
-  "rr_to_obstacle": 0.44,
+  "rr_to_obstacle": 0.53,
   "holding": "intraday to 2 days (H1 setup)",
-  "invalidation": "H1 close above 3977.38 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-03T23:25:17.517296+00:00",
-  "event": "Congressional Elections (USD, High) Tue 03 Nov 18:16 EAT",
+  "invalidation": "H1 close above 3984.75 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
+  "expires_utc": "2026-11-04T09:19:43.517976+00:00",
+  "event": "Spanish Unemployment Change (EUR, Low) Wed 04 Nov 11:00 EAT",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
    "H1 pullback to EMA20/50 zone",
-   "M15 RSI 44.7",
-   "H4 CHoCH bearish",
-   "H1 liquidity sweep in trade direction"
+   "M15 RSI 44.0",
+   "M15 MACD histogram aligned",
+   "H4 CHoCH bearish"
   ],
   "contrary": [
    "fundamentals: DXY 20d trend down, US10Y 20d trend down",
-   "nearest opposing level only 0.44R away"
+   "nearest opposing level only 0.53R away"
   ],
   "reasons_wait": [
-   "only 0.44R of room to the nearest support",
-   "score 56 below 60"
+   "market closed: daily maintenance break (~21:00-22:05 UTC)",
+   "only 0.53R of room to the nearest support",
+   "score 59 below 60"
   ],
-  "score": 56,
+  "score": 59,
   "score_breakdown": {
    "htf_trend": "20/20",
-   "technical": "5/15",
+   "technical": "10/15",
    "structure": "10/15",
    "volatility": "10/10",
    "fundamental": "0/10",
    "costs": "4/10",
    "reward_risk": "0/10",
-   "event_risk": "2/5",
-   "liquidity": "5/5"
+   "event_risk": "5/5",
+   "liquidity": "0/5"
   },
   "risk": {
    "equity": 28.82,
    "max_loss_allowed": 0.14,
-   "stop_distance": 67.98,
+   "stop_distance": 52.65,
    "tick_size": 0.01,
    "tick_value_per_lot": 1.0,
    "contract_size": 100,
    "min_lot": 0.01,
-   "loss_per_min_lot": 68.43,
+   "loss_per_min_lot": 53.1,
    "allowed_lots": 0.0,
    "planned_lots": 0.0,
-   "max_loss_at_stop": 68.43,
+   "max_loss_at_stop": 53.1,
    "spread_cost": 0.25,
    "slippage_cost": 0.2,
-   "required_margin": 19.55,
+   "required_margin": 19.66,
    "executable": false,
-   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$68.43 at this stop vs $0.14 budget",
+   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$53.10 at this stop vs $0.14 budget",
    "specs_verified": false
   },
   "executable": false,
@@ -76,9 +77,10 @@
   "levels": {
    "prev_day_high": 3980.8,
    "prev_day_low": 3889.0,
-   "session_high": 3974.5,
+   "session_high": 3981.7,
    "session_low": 3904.1,
    "support": [
+    3904.1,
     3879.3
    ],
    "resistance": [
@@ -87,7 +89,7 @@
     4091.88
    ],
    "h4_swing_high": 3980.8,
-   "h4_swing_low": 3879.3,
+   "h4_swing_low": 3904.1,
    "fvg_h1": [
     {
      "dir": "bullish",
@@ -95,19 +97,19 @@
      "bottom": 3898.9
     },
     {
-     "dir": "bearish",
-     "top": 3950.9,
-     "bottom": 3940.3
+     "dir": "bullish",
+     "top": 3937.2,
+     "bottom": 3919.4
     },
     {
      "dir": "bearish",
-     "top": 3926.5,
-     "bottom": 3923.6
+     "top": 3950.0,
+     "bottom": 3947.2
     },
     {
      "dir": "bearish",
-     "top": 3920.8,
-     "bottom": 3920.4
+     "top": 3936.9,
+     "bottom": 3932.9
     }
    ],
    "zones_h1": [
@@ -117,7 +119,7 @@
      "bottom": 3907.8
     }
    ],
-   "latest_m15_bar_utc": "2026-11-03T11:00:00+00:00"
+   "latest_m15_bar_utc": "2026-11-03T21:00:00+00:00"
   },
   "indicators": {
    "D1": {
@@ -133,39 +135,39 @@
     "bias": -1
    },
    "H4": {
-    "close": 3916.4,
-    "ema20": 3958.86,
-    "ema50": 4010.11,
-    "ema200": 4149.08,
-    "rsi14": 35.7,
-    "macd_hist": 2.331,
-    "atr14": 30.19,
-    "bb_upper": 4061.24,
-    "bb_lower": 3858.14,
+    "close": 3931.0,
+    "ema20": 3951.73,
+    "ema50": 4001.17,
+    "ema200": 4142.63,
+    "rsi14": 41.6,
+    "macd_hist": 3.874,
+    "atr14": 31.4,
+    "bb_upper": 4026.1,
+    "bb_lower": 3862.5,
     "bias": -1
    },
    "H1": {
-    "close": 3914.1,
-    "ema20": 3933.42,
-    "ema50": 3948.47,
-    "ema200": 4018.34,
-    "rsi14": 38.9,
-    "macd_hist": -4.585,
-    "atr14": 14.41,
-    "bb_upper": 3991.11,
-    "bb_lower": 3902.38,
+    "close": 3931.3,
+    "ema20": 3937.61,
+    "ema50": 3945.91,
+    "ema200": 4010.97,
+    "rsi14": 46.8,
+    "macd_hist": 0.042,
+    "atr14": 15.24,
+    "bb_upper": 3968.37,
+    "bb_lower": 3901.52,
     "bias": -1
    },
    "M15": {
-    "close": 3917.9,
-    "ema20": 3919.05,
-    "ema50": 3929.95,
-    "ema200": 3948.94,
-    "rsi14": 44.7,
-    "macd_hist": 1.332,
-    "atr14": 6.27,
-    "bb_upper": 3928.26,
-    "bb_lower": 3905.86,
+    "close": 3932.1,
+    "ema20": 3935.68,
+    "ema50": 3936.78,
+    "ema200": 3945.79,
+    "rsi14": 44.0,
+    "macd_hist": -0.997,
+    "atr14": 5.28,
+    "bb_upper": 3945.69,
+    "bb_lower": 3927.73,
     "bias": -1
    },
    "structure": {
@@ -174,11 +176,11 @@
     "H1": "bearish",
     "H4_last_event": "CHoCH bearish @ 4036.9",
     "H1_divergence": null,
-    "H1_sweeps": 3,
+    "H1_sweeps": 0,
     "M15_candle": null,
     "volatility": {
      "regime": "normal",
-     "percentile": 30.0
+     "percentile": 32.5
     }
    }
   }
@@ -186,38 +188,42 @@
  "XAGUSD": {
   "key": "XAGUSD",
   "broker_symbol": "XAGUSD",
-  "ts": "2026-11-03T11:25:17.517296+00:00",
+  "ts": "2026-11-03T21:19:43.517976+00:00",
   "signal": "WAIT",
-  "state": "NO SETUP",
+  "state": "MARKET CLOSED",
   "direction_text": "bearish",
   "regime": "bearish, breaking previous-day range",
-  "price": 49.065,
+  "price": 49.705,
   "bid": null,
   "ask": null,
   "spread": null,
-  "entry_trigger": "M15 close below 48.855 with RSI <50 and MACD hist <0",
-  "entry": 48.855,
-  "stop": 50.986,
-  "tp1": 44.592,
-  "tp2": 42.461,
+  "entry_trigger": "M15 close below 49.420 with RSI <50 and MACD hist <0",
+  "entry": 49.42,
+  "stop": 50.671,
+  "tp1": 46.918,
+  "tp2": 45.667,
   "rr": 2.0,
-  "rr_to_obstacle": null,
+  "rr_to_obstacle": 0.53,
   "holding": "intraday to 2 days (H1 setup)",
-  "invalidation": "H1 close above 50.986 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-03T23:25:17.517296+00:00",
-  "event": "Congressional Elections (USD, High) Tue 03 Nov 18:16 EAT",
+  "invalidation": "H1 close above 50.671 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
+  "expires_utc": "2026-11-04T09:19:43.517976+00:00",
+  "event": "Spanish Unemployment Change (EUR, Low) Wed 04 Nov 11:00 EAT",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
-   "M15 RSI 44.1",
+   "H1 pullback to EMA20/50 zone",
+   "M15 MACD histogram aligned",
    "H4 BOS bearish"
   ],
   "contrary": [
-   "fundamentals: DXY 20d trend down, US10Y 20d trend down; gold/silver ratio 79.8"
+   "fundamentals: DXY 20d trend down, US10Y 20d trend down; gold/silver ratio 79.1",
+   "nearest opposing level only 0.53R away"
   ],
   "reasons_wait": [
-   "trend agrees but no H1 pullback/retest setup"
+   "market closed: daily maintenance break (~21:00-22:05 UTC)",
+   "only 0.53R of room to the nearest support",
+   "score 59 below 60"
   ],
-  "score": 68,
+  "score": 59,
   "score_breakdown": {
    "htf_trend": "20/20",
    "technical": "5/15",
@@ -225,27 +231,27 @@
    "volatility": "10/10",
    "fundamental": "0/10",
    "costs": "4/10",
-   "reward_risk": "7/10",
-   "event_risk": "2/5",
-   "liquidity": "5/5"
+   "reward_risk": "0/10",
+   "event_risk": "5/5",
+   "liquidity": "0/5"
   },
   "risk": {
    "equity": 28.82,
    "max_loss_allowed": 0.14,
-   "stop_distance": 2.131,
+   "stop_distance": 1.251,
    "tick_size": 0.001,
    "tick_value_per_lot": 5.0,
    "contract_size": 5000,
    "min_lot": 0.01,
-   "loss_per_min_lot": 109.05,
+   "loss_per_min_lot": 65.05,
    "allowed_lots": 0.0,
    "planned_lots": 0.0,
-   "max_loss_at_stop": 109.05,
+   "max_loss_at_stop": 65.05,
    "spread_cost": 1.5,
    "slippage_cost": 1.0,
-   "required_margin": 12.21,
+   "required_margin": 12.36,
    "executable": false,
-   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$109.05 at this stop vs $0.14 budget",
+   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$65.05 at this stop vs $0.14 budget",
    "specs_verified": false
   },
   "executable": false,
@@ -259,7 +265,7 @@
    "session_high": 50.915,
    "session_low": 48.62,
    "support": [
-    48.895
+    48.758
    ],
    "resistance": [
     49.96,
@@ -267,31 +273,21 @@
     52.938
    ],
    "h4_swing_high": 51.34,
-   "h4_swing_low": 49.96,
+   "h4_swing_low": 48.62,
    "fvg_h1": [
     {
-     "dir": "bearish",
-     "top": 50.08,
-     "bottom": 49.795
+     "dir": "bullish",
+     "top": 49.485,
+     "bottom": 49.11
     },
     {
      "dir": "bearish",
-     "top": 49.7,
-     "bottom": 49.665
-    },
-    {
-     "dir": "bearish",
-     "top": 49.525,
-     "bottom": 49.515
-    },
-    {
-     "dir": "bearish",
-     "top": 49.22,
-     "bottom": 49.215
+     "top": 49.955,
+     "bottom": 49.935
     }
    ],
    "zones_h1": [],
-   "latest_m15_bar_utc": "2026-11-03T11:00:00+00:00"
+   "latest_m15_bar_utc": "2026-11-03T21:00:00+00:00"
   },
   "indicators": {
    "D1": {
@@ -307,40 +303,40 @@
     "bias": -1
    },
    "H4": {
-    "close": 49.055,
-    "ema20": 50.833,
-    "ema50": 52.655,
-    "ema200": 57.774,
-    "rsi14": 30.0,
-    "macd_hist": 0.0536,
-    "atr14": 0.765,
-    "bb_upper": 53.008,
-    "bb_lower": 48.384,
+    "close": 49.505,
+    "ema20": 50.481,
+    "ema50": 52.294,
+    "ema200": 57.528,
+    "rsi14": 37.4,
+    "macd_hist": 0.0637,
+    "atr14": 0.792,
+    "bb_upper": 52.05,
+    "bb_lower": 48.405,
     "bias": -1
    },
    "H1": {
-    "close": 48.955,
-    "ema20": 49.746,
-    "ema50": 50.356,
-    "ema200": 52.886,
-    "rsi14": 30.2,
-    "macd_hist": -0.158,
-    "atr14": 0.357,
-    "bb_upper": 51.695,
-    "bb_lower": 48.499,
+    "close": 49.685,
+    "ema20": 49.744,
+    "ema50": 50.156,
+    "ema200": 52.587,
+    "rsi14": 47.5,
+    "macd_hist": 0.0488,
+    "atr14": 0.38,
+    "bb_upper": 50.539,
+    "bb_lower": 48.609,
     "bias": -1
    },
    "M15": {
-    "close": 49.065,
-    "ema20": 49.076,
-    "ema50": 49.514,
-    "ema200": 50.369,
-    "rsi14": 44.1,
-    "macd_hist": 0.0587,
-    "atr14": 0.154,
-    "bb_upper": 49.342,
-    "bb_lower": 48.658,
-    "bias": -1
+    "close": 49.705,
+    "ema20": 49.676,
+    "ema50": 49.674,
+    "ema200": 50.153,
+    "rsi14": 51.8,
+    "macd_hist": -0.0114,
+    "atr14": 0.13,
+    "bb_upper": 49.871,
+    "bb_lower": 49.515,
+    "bias": 0
    },
    "structure": {
     "D1": "bearish",
@@ -352,7 +348,7 @@
     "M15_candle": null,
     "volatility": {
      "regime": "normal",
-     "percentile": 20.0
+     "percentile": 35.0
     }
    }
   }
@@ -360,12 +356,12 @@
  "USOIL": {
   "key": "USOIL",
   "broker_symbol": "USOIL",
-  "ts": "2026-11-03T11:25:17.517296+00:00",
+  "ts": "2026-11-03T21:19:43.517976+00:00",
   "signal": "WAIT",
-  "state": "NO SETUP",
+  "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
-  "regime": "reversing (H4 CHoCH)",
-  "price": 98.16,
+  "regime": "highly volatile",
+  "price": 96.73,
   "bid": null,
   "ask": null,
   "spread": null,
@@ -379,23 +375,26 @@
   "holding": "",
   "invalidation": "",
   "expires_utc": null,
-  "event": "Congressional Elections (USD, High) Tue 03 Nov 18:16 EAT",
+  "event": "ADP Non-Farm Employment Change (USD, Low) Wed 04 Nov 16:15 EAT",
   "supporting": [],
-  "contrary": [],
+  "contrary": [
+   "H1 ATR at 93.3th percentile"
+  ],
   "reasons_wait": [
+   "market closed: daily maintenance break (~21:00-22:05 UTC)",
    "D1 bias +1 and H4 bias +0 do not agree"
   ],
-  "score": 26,
+  "score": 17,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
    "structure": "0/15",
-   "volatility": "10/10",
+   "volatility": "3/10",
    "fundamental": "5/10",
    "costs": "4/10",
    "reward_risk": "0/10",
-   "event_risk": "2/5",
-   "liquidity": "5/5"
+   "event_risk": "5/5",
+   "liquidity": "0/5"
   },
   "risk": null,
   "executable": false,
@@ -406,17 +405,17 @@
   "levels": {
    "prev_day_high": 102.75,
    "prev_day_low": 95.15,
-   "session_high": 98.69,
-   "session_low": 96.12,
+   "session_high": 98.82,
+   "session_low": 93.59,
    "support": [
-    97.9,
-    96.445,
-    95.23
+    96.73,
+    95.602,
+    93.71
    ],
    "resistance": [
+    97.9,
     99.835,
-    101.145,
-    103.355
+    101.145
    ],
    "h4_swing_high": 104.98,
    "h4_swing_low": 95.15,
@@ -438,8 +437,8 @@
     },
     {
      "dir": "bullish",
-     "top": 96.83,
-     "bottom": 96.76
+     "top": 96.49,
+     "bottom": 96.25
     }
    ],
    "zones_h1": [
@@ -449,7 +448,7 @@
      "bottom": 102.44
     }
    ],
-   "latest_m15_bar_utc": "2026-11-03T11:00:00+00:00"
+   "latest_m15_bar_utc": "2026-11-03T21:00:00+00:00"
   },
   "indicators": {
    "D1": {
@@ -465,52 +464,52 @@
     "bias": 1
    },
    "H4": {
-    "close": 97.84,
-    "ema20": 100.029,
-    "ema50": 100.272,
-    "ema200": 96.347,
-    "rsi14": 38.5,
-    "macd_hist": -0.6908,
-    "atr14": 1.655,
-    "bb_upper": 106.369,
-    "bb_lower": 95.747,
+    "close": 96.57,
+    "ema20": 99.215,
+    "ema50": 99.894,
+    "ema200": 96.365,
+    "rsi14": 37.6,
+    "macd_hist": -0.4964,
+    "atr14": 1.842,
+    "bb_upper": 106.43,
+    "bb_lower": 94.298,
     "bias": 0
    },
    "H1": {
-    "close": 97.53,
-    "ema20": 97.647,
-    "ema50": 99.114,
-    "ema200": 99.977,
-    "rsi14": 45.0,
-    "macd_hist": 0.3304,
-    "atr14": 0.848,
-    "bb_upper": 98.217,
-    "bb_lower": 95.554,
+    "close": 96.54,
+    "ema20": 96.758,
+    "ema50": 98.176,
+    "ema200": 99.626,
+    "rsi14": 45.8,
+    "macd_hist": 0.0843,
+    "atr14": 1.039,
+    "bb_upper": 98.712,
+    "bb_lower": 94.894,
     "bias": -1
    },
    "M15": {
-    "close": 98.16,
-    "ema20": 97.715,
-    "ema50": 97.488,
-    "ema200": 99.139,
-    "rsi14": 59.0,
-    "macd_hist": -0.0494,
-    "atr14": 0.446,
-    "bb_upper": 98.473,
-    "bb_lower": 97.276,
+    "close": 96.73,
+    "ema20": 96.348,
+    "ema50": 96.524,
+    "ema200": 98.212,
+    "rsi14": 57.1,
+    "macd_hist": 0.1145,
+    "atr14": 0.416,
+    "bb_upper": 96.855,
+    "bb_lower": 95.499,
     "bias": 0
    },
    "structure": {
     "D1": "bullish",
     "H4": "bearish",
-    "H1": "bullish",
+    "H1": "bearish",
     "H4_last_event": "CHoCH bearish @ 99.79",
-    "H1_divergence": null,
-    "H1_sweeps": 0,
-    "M15_candle": null,
+    "H1_divergence": "bearish",
+    "H1_sweeps": 1,
+    "M15_candle": "bullish_engulfing",
     "volatility": {
-     "regime": "normal",
-     "percentile": 79.2
+     "regime": "high",
+     "percentile": 93.3
     }
    }
   }
@@ -518,12 +517,12 @@
  "UKOIL": {
   "key": "UKOIL",
   "broker_symbol": "UKOIL",
-  "ts": "2026-11-03T11:25:17.517296+00:00",
+  "ts": "2026-11-03T21:19:43.517976+00:00",
   "signal": "WAIT",
-  "state": "NO SETUP",
+  "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
   "regime": "highly volatile",
-  "price": 106.2,
+  "price": 104.37,
   "bid": null,
   "ask": null,
   "spread": null,
@@ -537,15 +536,16 @@
   "holding": "",
   "invalidation": "",
   "expires_utc": null,
-  "event": "Congressional Elections (USD, High) Tue 03 Nov 18:16 EAT",
+  "event": "ADP Non-Farm Employment Change (USD, Low) Wed 04 Nov 16:15 EAT",
   "supporting": [],
   "contrary": [
-   "H1 ATR at 85.8th percentile"
+   "H1 ATR at 93.3th percentile"
   ],
   "reasons_wait": [
+   "market closed: daily maintenance break (~21:00-22:05 UTC)",
    "D1 bias +1 and H4 bias +0 do not agree"
   ],
-  "score": 19,
+  "score": 17,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
@@ -554,8 +554,8 @@
    "fundamental": "5/10",
    "costs": "4/10",
    "reward_risk": "0/10",
-   "event_risk": "2/5",
-   "liquidity": "5/5"
+   "event_risk": "5/5",
+   "liquidity": "0/5"
   },
   "risk": null,
   "executable": false,
@@ -567,39 +567,39 @@
    "prev_day_high": 112.38,
    "prev_day_low": 103.29,
    "session_high": 107.21,
-   "session_low": 104.24,
+   "session_low": 100.8,
    "support": [
-    105.355,
     102.802,
-    100.98
+    100.98,
+    99.69
    ],
    "resistance": [
-    107.048,
-    109.292,
-    111.0
+    105.355,
+    107.071,
+    109.292
    ],
-   "h4_swing_high": 114.29,
+   "h4_swing_high": 107.21,
    "h4_swing_low": 103.29,
    "fvg_h1": [
-    {
-     "dir": "bearish",
-     "top": 110.85,
-     "bottom": 110.28
-    },
-    {
-     "dir": "bearish",
-     "top": 109.7,
-     "bottom": 109.29
-    },
     {
      "dir": "bearish",
      "top": 108.39,
      "bottom": 106.99
     },
     {
+     "dir": "bearish",
+     "top": 105.5,
+     "bottom": 105.42
+    },
+    {
+     "dir": "bearish",
+     "top": 104.62,
+     "bottom": 104.45
+    },
+    {
      "dir": "bullish",
-     "top": 105.04,
-     "bottom": 104.89
+     "top": 104.12,
+     "bottom": 103.74
     }
    ],
    "zones_h1": [
@@ -619,7 +619,7 @@
      "bottom": 105.51
     }
    ],
-   "latest_m15_bar_utc": "2026-11-03T11:00:00+00:00"
+   "latest_m15_bar_utc": "2026-11-03T21:00:00+00:00"
   },
   "indicators": {
    "D1": {
@@ -635,52 +635,52 @@
     "bias": 1
    },
    "H4": {
-    "close": 106.45,
-    "ema20": 108.882,
-    "ema50": 109.606,
-    "ema200": 105.415,
-    "rsi14": 39.2,
-    "macd_hist": -0.756,
-    "atr14": 1.798,
-    "bb_upper": 115.945,
-    "bb_lower": 103.979,
+    "close": 104.18,
+    "ema20": 107.761,
+    "ema50": 109.041,
+    "ema200": 105.392,
+    "rsi14": 35.7,
+    "macd_hist": -0.6252,
+    "atr14": 2.034,
+    "bb_upper": 116.21,
+    "bb_lower": 101.969,
     "bias": 0
    },
    "H1": {
-    "close": 105.67,
-    "ema20": 106.065,
-    "ema50": 107.789,
-    "ema200": 109.368,
-    "rsi14": 42.8,
-    "macd_hist": 0.3728,
-    "atr14": 0.95,
-    "bb_upper": 106.883,
-    "bb_lower": 103.477,
+    "close": 104.2,
+    "ema20": 104.658,
+    "ema50": 106.497,
+    "ema200": 108.847,
+    "rsi14": 44.2,
+    "macd_hist": 0.0789,
+    "atr14": 1.136,
+    "bb_upper": 107.398,
+    "bb_lower": 102.139,
     "bias": -1
    },
    "M15": {
-    "close": 106.2,
-    "ema20": 106.025,
-    "ema50": 105.817,
-    "ema200": 107.805,
-    "rsi14": 53.8,
-    "macd_hist": -0.114,
-    "atr14": 0.489,
-    "bb_upper": 107.176,
-    "bb_lower": 105.387,
+    "close": 104.37,
+    "ema20": 103.956,
+    "ema50": 104.259,
+    "ema200": 106.525,
+    "rsi14": 57.2,
+    "macd_hist": 0.1438,
+    "atr14": 0.417,
+    "bb_upper": 104.538,
+    "bb_lower": 102.966,
     "bias": 0
    },
    "structure": {
     "D1": "bullish",
     "H4": "bearish",
-    "H1": "bullish",
-    "H4_last_event": "CHoCH bearish @ 109.03",
-    "H1_divergence": null,
-    "H1_sweeps": 0,
-    "M15_candle": "bullish_engulfing",
+    "H1": "bearish",
+    "H4_last_event": "BOS bearish @ 103.29",
+    "H1_divergence": "bullish",
+    "H1_sweeps": 2,
+    "M15_candle": null,
     "volatility": {
      "regime": "high",
-     "percentile": 85.8
+     "percentile": 93.3
     }
    }
   }
