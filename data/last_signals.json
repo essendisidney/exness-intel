@@ -2,12 +2,12 @@
  "XAUUSD": {
   "key": "XAUUSD",
   "broker_symbol": "XAUUSD",
-  "ts": "2026-11-04T11:38:16.090702+00:00",
+  "ts": "2026-11-04T21:36:21.401554+00:00",
   "signal": "WAIT",
-  "state": "NO SETUP",
+  "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
-  "regime": "highly volatile",
-  "price": 4051.7,
+  "regime": "reversing (H4 CHoCH)",
+  "price": 4072.7,
   "bid": null,
   "ask": null,
   "spread": null,
@@ -21,25 +21,24 @@
   "holding": "",
   "invalidation": "",
   "expires_utc": null,
-  "event": "ADP Non-Farm Employment Change (USD, Low) Wed 04 Nov 16:15 EAT",
+  "event": "Italian Retail Sales m/m (EUR, Low) Thu 05 Nov 12:00 EAT",
   "supporting": [],
-  "contrary": [
-   "H1 ATR at 95.0th percentile"
-  ],
+  "contrary": [],
   "reasons_wait": [
+   "market closed: daily maintenance break (~21:00-22:05 UTC)",
    "D1 bias -1 and H4 bias +0 do not agree"
   ],
-  "score": 17,
+  "score": 19,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
    "structure": "0/15",
-   "volatility": "3/10",
+   "volatility": "10/10",
    "fundamental": "0/10",
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "0/5"
   },
   "risk": null,
   "executable": false,
@@ -50,7 +49,7 @@
   "levels": {
    "prev_day_high": 3981.7,
    "prev_day_low": 3904.1,
-   "session_high": 4060.0,
+   "session_high": 4081.2,
    "session_low": 3928.2,
    "support": [
     4042.9,
@@ -67,6 +66,11 @@
    "fvg_h1": [
     {
      "dir": "bullish",
+     "top": 3956.2,
+     "bottom": 3952.4
+    },
+    {
+     "dir": "bullish",
      "top": 4006.9,
      "bottom": 3968.5
     },
@@ -77,13 +81,8 @@
     },
     {
      "dir": "bullish",
-     "top": 4043.6,
-     "bottom": 4039.3
-    },
-    {
-     "dir": "bullish",
-     "top": 4049.3,
-     "bottom": 4049.2
+     "top": 4069.0,
+     "bottom": 4059.6
     }
    ],
    "zones_h1": [
@@ -93,7 +92,7 @@
      "bottom": 3907.8
     }
    ],
-   "latest_m15_bar_utc": "2026-11-04T11:15:00+00:00"
+   "latest_m15_bar_utc": "2026-11-04T21:15:00+00:00"
   },
   "indicators": {
    "D1": {
@@ -109,39 +108,39 @@
     "bias": -1
    },
    "H4": {
-    "close": 4032.3,
-    "ema20": 3958.46,
-    "ema50": 3998.32,
-    "ema200": 4137.94,
-    "rsi14": 62.8,
-    "macd_hist": 11.597,
-    "atr14": 36.43,
-    "bb_upper": 4005.44,
-    "bb_lower": 3869.83,
+    "close": 4068.7,
+    "ema20": 3984.94,
+    "ema50": 4005.32,
+    "ema200": 4135.64,
+    "rsi14": 67.7,
+    "macd_hist": 20.185,
+    "atr14": 34.88,
+    "bb_upper": 4061.44,
+    "bb_lower": 3844.95,
     "bias": 0
    },
    "H1": {
-    "close": 4057.1,
-    "ema20": 3987.58,
-    "ema50": 3966.48,
-    "ema200": 4008.64,
-    "rsi14": 76.3,
-    "macd_hist": 11.866,
-    "atr14": 19.8,
-    "bb_upper": 4061.78,
-    "bb_lower": 3883.49,
+    "close": 4074.3,
+    "ema20": 4037.22,
+    "ema50": 3998.87,
+    "ema200": 4013.9,
+    "rsi14": 72.1,
+    "macd_hist": 0.934,
+    "atr14": 17.45,
+    "bb_upper": 4121.12,
+    "bb_lower": 3946.99,
     "bias": 0
    },
    "M15": {
-    "close": 4051.7,
-    "ema20": 4038.91,
-    "ema50": 4006.23,
-    "ema200": 3966.74,
-    "rsi14": 66.4,
-    "macd_hist": -2.755,
-    "atr14": 9.24,
-    "bb_upper": 4064.28,
-    "bb_lower": 4025.94,
+    "close": 4072.7,
+    "ema20": 4069.97,
+    "ema50": 4054.4,
+    "ema200": 3998.69,
+    "rsi14": 56.4,
+    "macd_hist": -1.013,
+    "atr14": 6.89,
+    "bb_upper": 4079.72,
+    "bb_lower": 4067.47,
     "bias": 1
    },
    "structure": {
@@ -149,12 +148,12 @@
     "H4": "bullish",
     "H1": "bullish",
     "H4_last_event": "CHoCH bullish @ 3981.7",
-    "H1_divergence": null,
+    "H1_divergence": "bearish",
     "H1_sweeps": 0,
-    "M15_candle": "bearish_pin",
+    "M15_candle": null,
     "volatility": {
-     "regime": "high",
-     "percentile": 95.0
+     "regime": "normal",
+     "percentile": 66.7
     }
    }
   }
@@ -162,71 +161,45 @@
  "XAGUSD": {
   "key": "XAGUSD",
   "broker_symbol": "XAGUSD",
-  "ts": "2026-11-04T11:38:16.090702+00:00",
+  "ts": "2026-11-04T21:36:21.401554+00:00",
   "signal": "WAIT",
-  "state": "NO SETUP",
-  "direction_text": "bearish",
-  "regime": "highly volatile",
-  "price": 52.035,
+  "state": "MARKET CLOSED",
+  "direction_text": "no D1/H4 agreement",
+  "regime": "reversing (H4 CHoCH)",
+  "price": 52.345,
   "bid": null,
   "ask": null,
   "spread": null,
-  "entry_trigger": "M15 close below 51.745 with RSI <50 and MACD hist <0",
-  "entry": 51.745,
-  "stop": 52.471,
-  "tp1": 50.294,
-  "tp2": 49.96,
-  "rr": 2.0,
-  "rr_to_obstacle": 0.56,
-  "holding": "intraday to 2 days (H1 setup)",
-  "invalidation": "H1 close above 52.471 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-04T23:38:16.090702+00:00",
-  "event": "ADP Non-Farm Employment Change (USD, Low) Wed 04 Nov 16:15 EAT",
-  "supporting": [
-   "D1 and H4 EMA stacks both bearish",
-   "H1 pullback to EMA20/50 zone",
-   "M15 MACD histogram aligned"
-  ],
-  "contrary": [
-   "fundamentals: DXY 20d trend down, US10Y 20d trend down; gold/silver ratio 77.9",
-   "nearest opposing level only 0.56R away",
-   "H1 ATR at 86.7th percentile"
-  ],
+  "entry_trigger": "",
+  "entry": null,
+  "stop": null,
+  "tp1": null,
+  "tp2": null,
+  "rr": null,
+  "rr_to_obstacle": null,
+  "holding": "",
+  "invalidation": "",
+  "expires_utc": null,
+  "event": "Italian Retail Sales m/m (EUR, Low) Thu 05 Nov 12:00 EAT",
+  "supporting": [],
+  "contrary": [],
   "reasons_wait": [
-   "only 0.56R of room to the nearest support",
-   "score 42 below 60"
+   "market closed: daily maintenance break (~21:00-22:05 UTC)",
+   "D1 bias -1 and H4 bias +0 do not agree"
   ],
-  "score": 42,
+  "score": 19,
   "score_breakdown": {
-   "htf_trend": "20/20",
-   "technical": "5/15",
+   "htf_trend": "0/20",
+   "technical": "0/15",
    "structure": "0/15",
-   "volatility": "3/10",
+   "volatility": "10/10",
    "fundamental": "0/10",
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "0/5"
   },
-  "risk": {
-   "equity": 28.82,
-   "max_loss_allowed": 0.14,
-   "stop_distance": 0.726,
-   "tick_size": 0.001,
-   "tick_value_per_lot": 5.0,
-   "contract_size": 5000,
-   "min_lot": 0.01,
-   "loss_per_min_lot": 38.8,
-   "allowed_lots": 0.0,
-   "planned_lots": 0.0,
-   "max_loss_at_stop": 38.8,
-   "spread_cost": 1.5,
-   "slippage_cost": 1.0,
-   "required_margin": 12.94,
-   "executable": false,
-   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$38.80 at this stop vs $0.14 budget",
-   "specs_verified": false
-  },
+  "risk": null,
   "executable": false,
   "data_source": "Yahoo Finance SI=F (futures front-month), delayed",
   "data_quality": [
@@ -235,7 +208,7 @@
   "levels": {
    "prev_day_high": 49.995,
    "prev_day_low": 48.55,
-   "session_high": 52.255,
+   "session_high": 52.495,
    "session_low": 48.98,
    "support": [
     51.34,
@@ -248,7 +221,7 @@
     54.546
    ],
    "h4_swing_high": 50.595,
-   "h4_swing_low": 48.62,
+   "h4_swing_low": 48.98,
    "fvg_h1": [
     {
      "dir": "bullish",
@@ -273,7 +246,7 @@
      "bottom": 48.98
     }
    ],
-   "latest_m15_bar_utc": "2026-11-04T11:15:00+00:00"
+   "latest_m15_bar_utc": "2026-11-04T21:15:00+00:00"
   },
   "indicators": {
    "D1": {
@@ -289,39 +262,39 @@
     "bias": -1
    },
    "H4": {
-    "close": 51.64,
-    "ema20": 50.437,
-    "ema50": 52.065,
-    "ema200": 57.32,
-    "rsi14": 55.3,
-    "macd_hist": 0.2279,
-    "atr14": 0.946,
-    "bb_upper": 51.368,
-    "bb_lower": 48.592,
-    "bias": -1
+    "close": 52.25,
+    "ema20": 50.883,
+    "ema50": 52.075,
+    "ema200": 57.167,
+    "rsi14": 58.7,
+    "macd_hist": 0.443,
+    "atr14": 0.89,
+    "bb_upper": 52.335,
+    "bb_lower": 48.251,
+    "bias": 0
    },
    "H1": {
-    "close": 52.12,
-    "ema20": 50.636,
-    "ema50": 50.399,
-    "ema200": 52.351,
-    "rsi14": 72.1,
-    "macd_hist": 0.2854,
-    "atr14": 0.484,
-    "bb_upper": 52.258,
-    "bb_lower": 48.379,
+    "close": 52.3,
+    "ema20": 51.643,
+    "ema50": 50.998,
+    "ema200": 52.337,
+    "rsi14": 68.9,
+    "macd_hist": 0.0146,
+    "atr14": 0.429,
+    "bb_upper": 53.631,
+    "bb_lower": 49.43,
     "bias": 0
    },
    "M15": {
-    "close": 52.035,
-    "ema20": 51.733,
-    "ema50": 51.015,
-    "ema200": 50.408,
-    "rsi14": 66.6,
-    "macd_hist": -0.0655,
-    "atr14": 0.202,
-    "bb_upper": 52.205,
-    "bb_lower": 51.614,
+    "close": 52.345,
+    "ema20": 52.275,
+    "ema50": 51.988,
+    "ema200": 50.997,
+    "rsi14": 55.5,
+    "macd_hist": -0.0145,
+    "atr14": 0.168,
+    "bb_upper": 52.454,
+    "bb_lower": 52.184,
     "bias": 1
    },
    "structure": {
@@ -333,8 +306,8 @@
     "H1_sweeps": 0,
     "M15_candle": null,
     "volatility": {
-     "regime": "high",
-     "percentile": 86.7
+     "regime": "normal",
+     "percentile": 47.5
     }
    }
   }
@@ -342,12 +315,12 @@
  "USOIL": {
   "key": "USOIL",
   "broker_symbol": "USOIL",
-  "ts": "2026-11-04T11:38:16.090702+00:00",
+  "ts": "2026-11-04T21:36:21.401554+00:00",
   "signal": "WAIT",
-  "state": "NO SETUP",
+  "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
   "regime": "highly volatile",
-  "price": 95.35,
+  "price": 88.45,
   "bid": null,
   "ask": null,
   "spread": null,
@@ -361,15 +334,16 @@
   "holding": "",
   "invalidation": "",
   "expires_utc": null,
-  "event": "ADP Non-Farm Employment Change (USD, Low) Wed 04 Nov 16:15 EAT",
+  "event": "FOMC Member Hammack Speaks (USD, Low) Thu 05 Nov 16:50 EAT",
   "supporting": [],
   "contrary": [
-   "H1 ATR at 88.3th percentile"
+   "H1 ATR at 95.8th percentile"
   ],
   "reasons_wait": [
+   "market closed: daily maintenance break (~21:00-22:05 UTC)",
    "D1 bias +1 and H4 bias +0 do not agree"
   ],
-  "score": 22,
+  "score": 17,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
@@ -379,7 +353,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "0/5"
   },
   "risk": null,
   "executable": false,
@@ -391,49 +365,41 @@
    "prev_day_high": 98.82,
    "prev_day_low": 93.59,
    "session_high": 97.15,
-   "session_low": 94.6,
+   "session_low": 87.13,
    "support": [
-    93.686,
-    92.163,
-    90.252
+    87.41
    ],
    "resistance": [
-    95.602,
-    96.73,
-    97.9
+    90.252,
+    92.765,
+    94.804
    ],
-   "h4_swing_high": 98.82,
+   "h4_swing_high": 97.15,
    "h4_swing_low": 93.59,
    "fvg_h1": [
     {
      "dir": "bearish",
-     "top": 102.02,
-     "bottom": 101.73
+     "top": 95.04,
+     "bottom": 94.63
     },
     {
      "dir": "bearish",
-     "top": 101.5,
-     "bottom": 101.08
+     "top": 94.43,
+     "bottom": 93.59
     },
     {
      "dir": "bearish",
-     "top": 100.28,
-     "bottom": 100.22
+     "top": 92.51,
+     "bottom": 92.5
     },
     {
      "dir": "bearish",
-     "top": 99.24,
-     "bottom": 97.99
+     "top": 91.67,
+     "bottom": 89.0
     }
    ],
-   "zones_h1": [
-    {
-     "type": "demand",
-     "top": 102.93,
-     "bottom": 102.56
-    }
-   ],
-   "latest_m15_bar_utc": "2026-11-04T11:15:00+00:00"
+   "zones_h1": [],
+   "latest_m15_bar_utc": "2026-11-04T21:15:00+00:00"
   },
   "indicators": {
    "D1": {
@@ -449,52 +415,52 @@
     "bias": 1
    },
    "H4": {
-    "close": 96.14,
-    "ema20": 98.412,
-    "ema50": 99.47,
-    "ema200": 96.363,
-    "rsi14": 37.5,
-    "macd_hist": -0.3288,
-    "atr14": 1.831,
-    "bb_upper": 105.631,
-    "bb_lower": 93.059,
+    "close": 88.52,
+    "ema20": 96.678,
+    "ema50": 98.609,
+    "ema200": 96.232,
+    "rsi14": 21.5,
+    "macd_hist": -0.7678,
+    "atr14": 2.222,
+    "bb_upper": 104.649,
+    "bb_lower": 90.42,
     "bias": 0
    },
    "H1": {
-    "close": 95.15,
-    "ema20": 96.176,
-    "ema50": 97.292,
-    "ema200": 99.188,
-    "rsi14": 38.9,
-    "macd_hist": 0.035,
-    "atr14": 0.988,
-    "bb_upper": 96.983,
-    "bb_lower": 95.106,
+    "close": 88.7,
+    "ema20": 92.477,
+    "ema50": 95.131,
+    "ema200": 98.404,
+    "rsi14": 22.0,
+    "macd_hist": -0.6522,
+    "atr14": 1.266,
+    "bb_upper": 99.667,
+    "bb_lower": 87.186,
     "bias": -1
    },
    "M15": {
-    "close": 95.35,
-    "ema20": 95.716,
-    "ema50": 95.956,
-    "ema200": 97.289,
-    "rsi14": 43.8,
-    "macd_hist": -0.0924,
-    "atr14": 0.535,
-    "bb_upper": 97.015,
-    "bb_lower": 94.848,
+    "close": 88.45,
+    "ema20": 89.16,
+    "ema50": 91.232,
+    "ema200": 95.159,
+    "rsi14": 33.3,
+    "macd_hist": 0.2495,
+    "atr14": 0.552,
+    "bb_upper": 89.291,
+    "bb_lower": 87.581,
     "bias": -1
    },
    "structure": {
     "D1": "bearish",
     "H4": "bearish",
     "H1": "bearish",
-    "H4_last_event": "CHoCH bearish @ 99.79",
+    "H4_last_event": "BOS bearish @ 93.59",
     "H1_divergence": null,
-    "H1_sweeps": 1,
+    "H1_sweeps": 0,
     "M15_candle": null,
     "volatility": {
      "regime": "high",
-     "percentile": 88.3
+     "percentile": 95.8
     }
    }
   }
@@ -502,12 +468,12 @@
  "UKOIL": {
   "key": "UKOIL",
   "broker_symbol": "UKOIL",
-  "ts": "2026-11-04T11:38:16.090702+00:00",
+  "ts": "2026-11-04T21:36:21.401554+00:00",
   "signal": "WAIT",
-  "state": "NO SETUP",
+  "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
   "regime": "highly volatile",
-  "price": 102.39,
+  "price": 95.0,
   "bid": null,
   "ask": null,
   "spread": null,
@@ -521,15 +487,16 @@
   "holding": "",
   "invalidation": "",
   "expires_utc": null,
-  "event": "ADP Non-Farm Employment Change (USD, Low) Wed 04 Nov 16:15 EAT",
+  "event": "FOMC Member Hammack Speaks (USD, Low) Thu 05 Nov 16:50 EAT",
   "supporting": [],
   "contrary": [
-   "H1 ATR at 86.7th percentile"
+   "H1 ATR at 95.8th percentile"
   ],
   "reasons_wait": [
+   "market closed: daily maintenance break (~21:00-22:05 UTC)",
    "D1 bias +0 and H4 bias +0 do not agree"
   ],
-  "score": 22,
+  "score": 17,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
@@ -539,7 +506,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "0/5"
   },
   "risk": null,
   "executable": false,
@@ -551,47 +518,38 @@
    "prev_day_high": 107.21,
    "prev_day_low": 100.8,
    "session_high": 104.87,
-   "session_low": 101.54,
-   "support": [
-    100.89,
-    99.69,
-    97.08
-   ],
+   "session_low": 93.4,
+   "support": [],
    "resistance": [
-    102.767,
-    105.355,
-    107.071
+    97.08,
+    100.29,
+    102.718
    ],
-   "h4_swing_high": 107.21,
+   "h4_swing_high": 104.87,
    "h4_swing_low": 100.8,
    "fvg_h1": [
     {
      "dir": "bearish",
-     "top": 109.7,
-     "bottom": 109.29
-    },
-    {
-     "dir": "bearish",
-     "top": 108.39,
-     "bottom": 106.99
-    },
-    {
-     "dir": "bearish",
-     "top": 105.5,
-     "bottom": 105.42
-    },
-    {
-     "dir": "bearish",
      "top": 103.03,
      "bottom": 102.87
+    },
+    {
+     "dir": "bearish",
+     "top": 102.03,
+     "bottom": 102.02
+    },
+    {
+     "dir": "bearish",
+     "top": 99.91,
+     "bottom": 99.6
+    },
+    {
+     "dir": "bearish",
+     "top": 98.88,
+     "bottom": 95.23
     }
    ],
    "zones_h1": [
-    {
-     "type": "demand",
-     "top": 111.65,
-     "bottom": 111.2
-    },
     {
      "type": "supply",
      "top": 109.12,
@@ -608,7 +566,7 @@
      "bottom": 105.5
     }
    ],
-   "latest_m15_bar_utc": "2026-11-04T11:15:00+00:00"
+   "latest_m15_bar_utc": "2026-11-04T21:15:00+00:00"
   },
   "indicators": {
    "D1": {
@@ -624,52 +582,52 @@
     "bias": 0
    },
    "H4": {
-    "close": 103.72,
-    "ema20": 106.707,
-    "ema50": 108.437,
-    "ema200": 105.342,
-    "rsi14": 35.7,
-    "macd_hist": -0.4255,
-    "atr14": 1.98,
-    "bb_upper": 115.525,
-    "bb_lower": 100.257,
+    "close": 95.1,
+    "ema20": 104.608,
+    "ema50": 107.342,
+    "ema200": 105.149,
+    "rsi14": 20.6,
+    "macd_hist": -0.8977,
+    "atr14": 2.427,
+    "bb_upper": 114.434,
+    "bb_lower": 97.011,
     "bias": 0
    },
    "H1": {
-    "close": 102.19,
-    "ema20": 103.766,
-    "ema50": 105.286,
-    "ema200": 108.202,
-    "rsi14": 36.2,
-    "macd_hist": 0.0067,
-    "atr14": 1.068,
-    "bb_upper": 104.734,
-    "bb_lower": 102.458,
+    "close": 95.21,
+    "ema20": 99.546,
+    "ema50": 102.737,
+    "ema200": 107.211,
+    "rsi14": 21.1,
+    "macd_hist": -0.7104,
+    "atr14": 1.398,
+    "bb_upper": 107.735,
+    "bb_lower": 93.483,
     "bias": -1
    },
    "M15": {
-    "close": 102.39,
-    "ema20": 102.931,
-    "ema50": 103.384,
-    "ema200": 105.262,
-    "rsi14": 41.5,
-    "macd_hist": -0.1134,
-    "atr14": 0.569,
-    "bb_upper": 104.875,
-    "bb_lower": 101.571,
+    "close": 95.0,
+    "ema20": 95.796,
+    "ema50": 98.116,
+    "ema200": 102.756,
+    "rsi14": 34.0,
+    "macd_hist": 0.2672,
+    "atr14": 0.597,
+    "bb_upper": 95.84,
+    "bb_lower": 94.061,
     "bias": -1
    },
    "structure": {
     "D1": "bullish",
     "H4": "bearish",
     "H1": "bearish",
-    "H4_last_event": "BOS bearish @ 103.29",
+    "H4_last_event": "BOS bearish @ 100.8",
     "H1_divergence": null,
-    "H1_sweeps": 1,
+    "H1_sweeps": 0,
     "M15_candle": null,
     "volatility": {
      "regime": "high",
-     "percentile": 86.7
+     "percentile": 95.8
     }
    }
   }
