@@ -2,7 +2,7 @@
  "XAUUSD": {
   "key": "XAUUSD",
   "broker_symbol": "XAUUSD",
-  "ts": "2026-11-07T19:41:56.532029+00:00",
+  "ts": "2026-11-08T10:47:53.342896+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
@@ -21,11 +21,11 @@
   "holding": "",
   "invalidation": "",
   "expires_utc": null,
-  "event": "",
+  "event": "CPI y/y (CNY, Low) Mon 09 Nov 04:30 EAT",
   "supporting": [],
   "contrary": [],
   "reasons_wait": [
-   "data stale (1302 min old)",
+   "data stale (2208 min old)",
    "market closed: weekend close",
    "D1 bias -1 and H4 bias +0 do not agree"
   ],
@@ -90,7 +90,7 @@
     "close": 4074.9,
     "ema20": 4082.33,
     "ema50": 4179.21,
-    "ema200": 4283.26,
+    "ema200": 4283.18,
     "rsi14": 47.2,
     "macd_hist": 11.867,
     "atr14": 86.6,
@@ -100,38 +100,38 @@
    },
    "H4": {
     "close": 4074.9,
-    "ema20": 4058.71,
+    "ema20": 4058.7,
     "ema50": 4039.94,
-    "ema200": 4130.22,
+    "ema200": 4130.46,
     "rsi14": 55.2,
-    "macd_hist": -3.857,
-    "atr14": 36.29,
-    "bb_upper": 4182.0,
-    "bb_lower": 3943.43,
+    "macd_hist": -3.851,
+    "atr14": 36.32,
+    "bb_upper": 4181.98,
+    "bb_lower": 3943.41,
     "bias": 0
    },
    "H1": {
     "close": 4074.9,
-    "ema20": 4075.73,
-    "ema50": 4072.68,
+    "ema20": 4075.72,
+    "ema50": 4072.67,
     "ema200": 4044.07,
     "rsi14": 48.9,
-    "macd_hist": 1.801,
+    "macd_hist": 1.807,
     "atr14": 17.77,
-    "bb_upper": 4089.51,
-    "bb_lower": 4047.48,
+    "bb_upper": 4089.56,
+    "bb_lower": 4047.41,
     "bias": 1
    },
    "M15": {
     "close": 4074.9,
-    "ema20": 4073.14,
-    "ema50": 4072.25,
-    "ema200": 4072.12,
+    "ema20": 4073.16,
+    "ema50": 4072.27,
+    "ema200": 4072.14,
     "rsi14": 53.3,
     "macd_hist": -0.307,
     "atr14": 6.46,
-    "bb_upper": 4083.48,
-    "bb_lower": 4064.29,
+    "bb_upper": 4083.55,
+    "bb_lower": 4064.26,
     "bias": 1
    },
    "structure": {
@@ -144,7 +144,7 @@
     "M15_candle": "bearish_pin",
     "volatility": {
      "regime": "normal",
-     "percentile": 41.7
+     "percentile": 42.5
     }
    }
   }
@@ -152,7 +152,7 @@
  "XAGUSD": {
   "key": "XAGUSD",
   "broker_symbol": "XAGUSD",
-  "ts": "2026-11-07T19:41:56.532029+00:00",
+  "ts": "2026-11-08T10:47:53.342896+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "bearish",
@@ -170,12 +170,12 @@
   "rr_to_obstacle": 1.56,
   "holding": "intraday to 2 days (H1 setup)",
   "invalidation": "H1 close above 52.373 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-08T07:41:56.532029+00:00",
-  "event": "",
+  "expires_utc": "2026-11-08T22:47:53.342896+00:00",
+  "event": "CPI y/y (CNY, Low) Mon 09 Nov 04:30 EAT",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
    "H1 pullback to EMA20/50 zone",
-   "M15 RSI 49.0",
+   "M15 RSI 49.1",
    "M15 MACD histogram aligned",
    "M15 bearish pin",
    "H1 liquidity sweep in trade direction"
@@ -184,7 +184,7 @@
    "nearest opposing level only 1.56R away"
   ],
   "reasons_wait": [
-   "data stale (1302 min old)",
+   "data stale (2208 min old)",
    "market closed: weekend close",
    "only 1.56R of room to the nearest support"
   ],
@@ -261,7 +261,7 @@
     "close": 51.803,
     "ema20": 54.269,
     "ema50": 58.154,
-    "ema200": 62.972,
+    "ema200": 62.969,
     "rsi14": 37.6,
     "macd_hist": 0.0052,
     "atr14": 1.443,
@@ -272,8 +272,8 @@
    "H4": {
     "close": 51.942,
     "ema20": 51.739,
-    "ema50": 52.093,
-    "ema200": 56.55,
+    "ema50": 52.092,
+    "ema200": 56.556,
     "rsi14": 52.2,
     "macd_hist": 0.0105,
     "atr14": 0.829,
@@ -285,23 +285,23 @@
     "close": 51.942,
     "ema20": 51.977,
     "ema50": 51.921,
-    "ema200": 52.286,
+    "ema200": 52.287,
     "rsi14": 49.1,
-    "macd_hist": 0.0239,
+    "macd_hist": 0.0242,
     "atr14": 0.431,
-    "bb_upper": 52.332,
-    "bb_lower": 51.405,
+    "bb_upper": 52.333,
+    "bb_lower": 51.404,
     "bias": 0
    },
    "M15": {
     "close": 51.942,
-    "ema20": 51.965,
+    "ema20": 51.964,
     "ema50": 51.949,
     "ema200": 51.907,
-    "rsi14": 49.0,
-    "macd_hist": -0.012,
+    "rsi14": 49.1,
+    "macd_hist": -0.0119,
     "atr14": 0.154,
-    "bb_upper": 52.155,
+    "bb_upper": 52.153,
     "bb_lower": 51.789,
     "bias": 0
    },
@@ -323,7 +323,7 @@
  "USOIL": {
   "key": "USOIL",
   "broker_symbol": "USOIL",
-  "ts": "2026-11-07T19:41:56.532029+00:00",
+  "ts": "2026-11-08T10:47:53.342896+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
@@ -342,11 +342,11 @@
   "holding": "",
   "invalidation": "",
   "expires_utc": null,
-  "event": "",
+  "event": "FOMC Member Bowman Speaks (USD, Low) Mon 09 Nov 16:40 EAT",
   "supporting": [],
   "contrary": [],
   "reasons_wait": [
-   "data stale (1302 min old)",
+   "data stale (2208 min old)",
    "market closed: weekend close",
    "D1 bias +0 and H4 bias -1 do not agree"
   ],
@@ -370,7 +370,7 @@
   ],
   "levels": {
    "prev_day_high": 92.53,
-   "prev_day_low": 89.07,
+   "prev_day_low": 89.08,
    "session_high": null,
    "session_low": null,
    "support": [
@@ -414,10 +414,10 @@
     "close": 90.83,
     "ema20": 96.214,
     "ema50": 94.307,
-    "ema200": 85.953,
+    "ema200": 85.94,
     "rsi14": 42.2,
     "macd_hist": -1.5127,
-    "atr14": 4.838,
+    "atr14": 4.837,
     "bb_upper": 107.343,
     "bb_lower": 88.684,
     "bias": 0
@@ -426,36 +426,36 @@
     "close": 90.83,
     "ema20": 92.083,
     "ema50": 95.186,
-    "ema200": 95.476,
+    "ema200": 95.477,
     "rsi14": 40.2,
-    "macd_hist": 0.3884,
+    "macd_hist": 0.3885,
     "atr14": 1.783,
     "bb_upper": 97.34,
-    "bb_lower": 85.764,
+    "bb_lower": 85.763,
     "bias": -1
    },
    "H1": {
     "close": 90.83,
-    "ema20": 90.553,
-    "ema50": 90.993,
-    "ema200": 95.217,
+    "ema20": 90.555,
+    "ema50": 90.994,
+    "ema200": 95.219,
     "rsi14": 52.7,
-    "macd_hist": 0.0079,
+    "macd_hist": 0.0077,
     "atr14": 0.914,
     "bb_upper": 91.968,
-    "bb_lower": 89.472,
+    "bb_lower": 89.476,
     "bias": -1
    },
    "M15": {
     "close": 90.83,
-    "ema20": 90.595,
-    "ema50": 90.577,
+    "ema20": 90.596,
+    "ema50": 90.578,
     "ema200": 91.043,
     "rsi14": 56.0,
-    "macd_hist": 0.0077,
+    "macd_hist": 0.0078,
     "atr14": 0.384,
-    "bb_upper": 91.269,
-    "bb_lower": 89.748,
+    "bb_upper": 91.266,
+    "bb_lower": 89.75,
     "bias": 0
    },
    "structure": {
@@ -468,7 +468,7 @@
     "M15_candle": null,
     "volatility": {
      "regime": "normal",
-     "percentile": 36.7
+     "percentile": 37.5
     }
    }
   }
@@ -476,7 +476,7 @@
  "UKOIL": {
   "key": "UKOIL",
   "broker_symbol": "UKOIL",
-  "ts": "2026-11-07T19:41:56.532029+00:00",
+  "ts": "2026-11-08T10:47:53.342896+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
@@ -495,11 +495,11 @@
   "holding": "",
   "invalidation": "",
   "expires_utc": null,
-  "event": "",
+  "event": "FOMC Member Bowman Speaks (USD, Low) Mon 09 Nov 16:40 EAT",
   "supporting": [],
   "contrary": [],
   "reasons_wait": [
-   "data stale (1302 min old)",
+   "data stale (2208 min old)",
    "market closed: weekend close",
    "D1 bias +0 and H4 bias -1 do not agree"
   ],
@@ -523,7 +523,7 @@
   ],
   "levels": {
    "prev_day_high": 100.92,
-   "prev_day_low": 96.65,
+   "prev_day_low": 96.71,
    "session_high": null,
    "session_low": null,
    "support": [
@@ -559,7 +559,13 @@
      "bottom": 99.05
     }
    ],
-   "zones_h1": [],
+   "zones_h1": [
+    {
+     "type": "supply",
+     "top": 106.63,
+     "bottom": 105.5
+    }
+   ],
    "latest_m15_bar_utc": "2026-11-06T21:45:00+00:00"
   },
   "indicators": {
@@ -567,47 +573,47 @@
     "close": 98.32,
     "ema20": 106.135,
     "ema50": 103.416,
-    "ema200": 92.48,
+    "ema200": 92.468,
     "rsi14": 39.4,
     "macd_hist": -2.2349,
-    "atr14": 5.258,
+    "atr14": 5.254,
     "bb_upper": 121.129,
     "bb_lower": 95.707,
     "bias": 0
    },
    "H4": {
     "close": 98.32,
-    "ema20": 99.666,
-    "ema50": 103.385,
-    "ema200": 104.211,
-    "rsi14": 41.6,
-    "macd_hist": 0.4728,
-    "atr14": 2.024,
-    "bb_upper": 105.165,
-    "bb_lower": 92.636,
+    "ema20": 99.664,
+    "ema50": 103.383,
+    "ema200": 104.207,
+    "rsi14": 41.7,
+    "macd_hist": 0.4734,
+    "atr14": 2.023,
+    "bb_upper": 105.168,
+    "bb_lower": 92.627,
     "bias": -1
    },
    "H1": {
     "close": 98.32,
-    "ema20": 98.064,
+    "ema20": 98.063,
     "ema50": 98.515,
     "ema200": 103.513,
     "rsi14": 52.0,
-    "macd_hist": -0.0244,
+    "macd_hist": -0.0243,
     "atr14": 1.002,
-    "bb_upper": 100.284,
+    "bb_upper": 100.282,
     "bb_lower": 96.49,
     "bias": -1
    },
    "M15": {
     "close": 98.32,
     "ema20": 98.014,
-    "ema50": 98.057,
+    "ema50": 98.056,
     "ema200": 98.577,
     "rsi14": 56.5,
-    "macd_hist": 0.0172,
+    "macd_hist": 0.0173,
     "atr14": 0.387,
-    "bb_upper": 98.776,
+    "bb_upper": 98.775,
     "bb_lower": 97.094,
     "bias": 0
    },
@@ -621,7 +627,7 @@
     "M15_candle": null,
     "volatility": {
      "regime": "normal",
-     "percentile": 43.3
+     "percentile": 45.8
     }
    }
   }
