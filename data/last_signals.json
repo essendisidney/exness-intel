@@ -2,7 +2,7 @@
  "XAUUSD": {
   "key": "XAUUSD",
   "broker_symbol": "XAUUSD",
-  "ts": "2026-11-08T10:47:53.342896+00:00",
+  "ts": "2026-11-08T20:00:39.965253+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
@@ -25,11 +25,11 @@
   "supporting": [],
   "contrary": [],
   "reasons_wait": [
-   "data stale (2208 min old)",
+   "data stale (2761 min old)",
    "market closed: weekend close",
    "D1 bias -1 and H4 bias +0 do not agree"
   ],
-  "score": 29,
+  "score": 24,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
@@ -39,7 +39,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "0/5"
   },
   "risk": null,
   "executable": false,
@@ -152,7 +152,7 @@
  "XAGUSD": {
   "key": "XAGUSD",
   "broker_symbol": "XAGUSD",
-  "ts": "2026-11-08T10:47:53.342896+00:00",
+  "ts": "2026-11-08T20:00:39.965253+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "bearish",
@@ -170,7 +170,7 @@
   "rr_to_obstacle": 1.56,
   "holding": "intraday to 2 days (H1 setup)",
   "invalidation": "H1 close above 52.373 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-08T22:47:53.342896+00:00",
+  "expires_utc": "2026-11-09T08:00:39.965253+00:00",
   "event": "CPI y/y (CNY, Low) Mon 09 Nov 04:30 EAT",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
@@ -184,11 +184,12 @@
    "nearest opposing level only 1.56R away"
   ],
   "reasons_wait": [
-   "data stale (2208 min old)",
+   "data stale (2761 min old)",
    "market closed: weekend close",
-   "only 1.56R of room to the nearest support"
+   "only 1.56R of room to the nearest support",
+   "score 59 below 60"
   ],
-  "score": 64,
+  "score": 59,
   "score_breakdown": {
    "htf_trend": "20/20",
    "technical": "15/15",
@@ -198,7 +199,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "0/5"
   },
   "risk": {
    "equity": 28.82,
@@ -225,8 +226,8 @@
    "futures proxy: price differs from Exness CFD by a basis; levels are indicative only"
   ],
   "levels": {
-   "prev_day_high": 51.845,
-   "prev_day_low": 51.803,
+   "prev_day_high": 52.375,
+   "prev_day_low": 51.2,
    "session_high": null,
    "session_low": null,
    "support": [
@@ -258,15 +259,15 @@
   },
   "indicators": {
    "D1": {
-    "close": 51.803,
-    "ema20": 54.269,
-    "ema50": 58.154,
-    "ema200": 62.969,
-    "rsi14": 37.6,
-    "macd_hist": 0.0052,
-    "atr14": 1.443,
-    "bb_upper": 60.513,
-    "bb_lower": 48.374,
+    "close": 51.942,
+    "ema20": 54.282,
+    "ema50": 58.16,
+    "ema200": 62.97,
+    "rsi14": 37.9,
+    "macd_hist": 0.0141,
+    "atr14": 1.497,
+    "bb_upper": 60.508,
+    "bb_lower": 48.392,
     "bias": -1
    },
    "H4": {
@@ -323,7 +324,7 @@
  "USOIL": {
   "key": "USOIL",
   "broker_symbol": "USOIL",
-  "ts": "2026-11-08T10:47:53.342896+00:00",
+  "ts": "2026-11-08T20:00:39.965253+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
@@ -346,11 +347,11 @@
   "supporting": [],
   "contrary": [],
   "reasons_wait": [
-   "data stale (2208 min old)",
+   "data stale (2761 min old)",
    "market closed: weekend close",
    "D1 bias +0 and H4 bias -1 do not agree"
   ],
-  "score": 29,
+  "score": 24,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
@@ -360,7 +361,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "0/5"
   },
   "risk": null,
   "executable": false,
@@ -370,7 +371,7 @@
   ],
   "levels": {
    "prev_day_high": 92.53,
-   "prev_day_low": 89.08,
+   "prev_day_low": 89.07,
    "session_high": null,
    "session_low": null,
    "support": [
@@ -417,7 +418,7 @@
     "ema200": 85.94,
     "rsi14": 42.2,
     "macd_hist": -1.5127,
-    "atr14": 4.837,
+    "atr14": 4.838,
     "bb_upper": 107.343,
     "bb_lower": 88.684,
     "bias": 0
@@ -476,7 +477,7 @@
  "UKOIL": {
   "key": "UKOIL",
   "broker_symbol": "UKOIL",
-  "ts": "2026-11-08T10:47:53.342896+00:00",
+  "ts": "2026-11-08T20:00:39.965253+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
@@ -499,11 +500,11 @@
   "supporting": [],
   "contrary": [],
   "reasons_wait": [
-   "data stale (2208 min old)",
+   "data stale (2761 min old)",
    "market closed: weekend close",
    "D1 bias +0 and H4 bias -1 do not agree"
   ],
-  "score": 29,
+  "score": 24,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
@@ -513,7 +514,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "0/5"
   },
   "risk": null,
   "executable": false,
@@ -523,7 +524,7 @@
   ],
   "levels": {
    "prev_day_high": 100.92,
-   "prev_day_low": 96.71,
+   "prev_day_low": 96.65,
    "session_high": null,
    "session_low": null,
    "support": [
@@ -576,7 +577,7 @@
     "ema200": 92.468,
     "rsi14": 39.4,
     "macd_hist": -2.2349,
-    "atr14": 5.254,
+    "atr14": 5.258,
     "bb_upper": 121.129,
     "bb_lower": 95.707,
     "bias": 0
