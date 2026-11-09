@@ -1,30 +1,30 @@
 # EXNESS AI — EVENING MARKET INTELLIGENCE
 
-**Monday 09 November 2026, 15:13 EAT**
+**Tuesday 10 November 2026, 02:52 EAT**
 
 > Research output, not financial advice. No trades are placed by this system. Stops are not guaranteed; gaps and slippage can exceed planned losses.
 
 ## A. What changed today
-- XAUUSD: 4,074.9 → 4,117.7 (+42.800); signal WAIT/MARKET CLOSED → WAIT/NO SETUP
-- XAGUSD: 51.942 → 52.665 (+0.723); signal WAIT/MARKET CLOSED → WAIT/NO SETUP
-- USOIL: 90.83 → 88.59 (-2.240); signal WAIT/MARKET CLOSED → WAIT/NO SETUP
-- UKOIL: 98.32 → 95.2 (-3.120); signal WAIT/MARKET CLOSED → WAIT/NO SETUP
+- XAUUSD: 4,074.9 → 4,146.1 (+71.200); signal WAIT/MARKET CLOSED → WAIT/NO SETUP
+- XAGUSD: 51.942 → 53.435 (+1.493); signal WAIT/MARKET CLOSED → WAIT/NO SETUP
+- USOIL: 90.83 → 86.43 (-4.400); signal WAIT/MARKET CLOSED → WAIT/NO SETUP
+- UKOIL: 98.32 → 92.31 (-6.010); signal WAIT/MARKET CLOSED → WAIT/NO SETUP
 
-Cross-asset: DXY 101.873 (-0.427, 20d trend down, close of 2026-11-09); US10Y 4.859 (+0.022, 20d trend down, close of 2026-11-06); gold/silver ratio 78.2.
+Cross-asset: DXY 101.679 (-0.621, 20d trend down, close of 2026-11-09); US10Y 4.864 (+0.005, 20d trend down, close of 2026-11-09); gold/silver ratio 77.6.
 
 Recent headlines (titles only, unverified beyond the publisher):
-- [Iraq's Oil Sales to America Fall to Lowest Since the 2003 War](https://oilprice.com/Latest-Energy-News/World-News/Iraqs-Oil-Sales-to-America-Fall-to-Lowest-Since-the-2003-War.html) — OilPrice.com, 09 Nov 14:30 EAT
-- [Iraq Strikes U.S. Deal to Boost Oil Exports Through Hormuz](https://oilprice.com/Latest-Energy-News/World-News/Iraq-Strikes-US-Deal-to-Boost-Oil-Exports-Through-Hormuz.html) — OilPrice.com, 09 Nov 12:10 EAT
-- [Oil Prices Fall as Trump Signals No New Attacks on Iran](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Trump-Signals-No-New-Attacks-on-Iran.html) — OilPrice.com, 09 Nov 08:45 EAT
-- [Iraq’s 5 Million Bpd Oil Claim Complicates Its OPEC Quota Push](https://oilprice.com/Energy/Crude-Oil/Iraqs-5-Million-Bpd-Oil-Claim-Complicates-Its-OPEC-Quota-Push.html) — OilPrice.com, 09 Nov 03:00 EAT
+- [Scientists Develop Cheap Filter That Could Slash Oil Refining Energy Use by 32%](https://oilprice.com/Energy/Energy-General/Scientists-Develop-Cheap-Filter-That-Could-Slash-Oil-Refining-Energy-Use-by-32.html) — OilPrice.com, 10 Nov 02:00 EAT
+- [Brent Crashes 7% on Iran Peace Hopes Despite Fresh Saudi Pipeline Attack](https://oilprice.com/Latest-Energy-News/World-News/Brent-Crashes-7-on-Iran-Peace-Hopes-Despite-Fresh-Saudi-Pipeline-Attack.html) — OilPrice.com, 09 Nov 23:10 EAT
+- [Murphy Oil Bets on Israeli Gas Near Leviathan](https://oilprice.com/Latest-Energy-News/World-News/Murphy-Oil-Bets-on-Israeli-Gas-Near-Leviathan.html) — OilPrice.com, 09 Nov 20:30 EAT
+- [Saudi Pipeline Attacked as OPEC Output Climbs to 90% of Pre-War Levels](https://oilprice.com/Latest-Energy-News/World-News/Saudi-Pipeline-Attacked-as-OPEC-Output-Climbs-to-90-of-Pre-War-Levels.html) — OilPrice.com, 09 Nov 20:16 EAT
 
 ## B. Updated signals
 | Instrument | Price | Signal | Entry trigger | Stop | TP1 | TP2 | R:R |
 |---|---|---|---|---|---|---|---|
-| XAUUSD | 4,117.7 | WAIT (NO SETUP) | — | — | — | — | — |
-| XAGUSD | 52.665 | WAIT (NO SETUP) | — | — | — | — | — |
-| USOIL | 88.59 | WAIT (NO SETUP) | — | — | — | — | — |
-| UKOIL | 95.2 | WAIT (NO SETUP) | — | — | — | — | — |
+| XAUUSD | 4,146.1 | WAIT (NO SETUP) | — | — | — | — | — |
+| XAGUSD | 53.435 | WAIT (NO SETUP) | — | — | — | — | — |
+| USOIL | 86.43 | WAIT (NO SETUP) | — | — | — | — | — |
+| UKOIL | 92.31 | WAIT (NO SETUP) | — | — | — | — | — |
 
 - XAUUSD: WAIT — D1 bias -1 and H4 bias +0 do not agree
 - XAGUSD: WAIT — D1 bias -1 and H4 bias +0 do not agree
@@ -43,19 +43,18 @@ Screenshot position (historical, unverified): USOIL BUY 0.02 @ 100.685. **If sti
 No US releases with published actuals in the window.
 
 **Levels and readings**
-- **XAUUSD** 4,117.7 · D1 -1 / H4 +0 (structure D1 bullish, H4 bullish) · H4 RSI 59.5 · H1 ATR 16.95 · vol normal
-  PDH 4,116.2 / PDL 4,035.1 · session 4,143.3/4,063.5 · support [4091.88, 4062.5, 4041.34] · resistance [4131.65, 4168.73, 4199.3] · H4 last event: CHoCH bullish @ 3981.7
-- **XAGUSD** 52.665 · D1 -1 / H4 +0 (structure D1 bearish, H4 bullish) · H4 RSI 56 · H1 ATR 0.417 · vol normal
-  PDH 51.845 / PDL 51.803 · session 53.465/51.645 · support [52.542, 51.38, 50.595] · resistance [53.376, 54.546, 55.56] · H4 last event: BOS bullish @ 52.375
-- **USOIL** 88.59 · D1 +0 / H4 -1 (structure D1 bearish, H4 bearish) · H4 RSI 34.1 · H1 ATR 0.97 · vol normal
-  PDH 92.53 / PDL 89.07 · session 91.42/87.54 · support [87.96] · resistance [89.735, 91.567, 93.05] · H4 last event: BOS bearish @ 89.07
-- **UKOIL** 95.2 · D1 +0 / H4 -1 (structure D1 bearish, H4 bearish) · H4 RSI 34.2 · H1 ATR 1.048 · vol normal
-  PDH 100.92 / PDL 96.65 · session 98.42/94.43 · support [93.4] · resistance [96.65, 99.62, 100.86] · H4 last event: BOS bearish @ 96.65
+- **XAUUSD** 4,146.1 · D1 -1 / H4 +0 (structure D1 bullish, H4 bullish) · H4 RSI 63.2 · H1 ATR 17.74 · vol normal
+  PDH 4,116.2 / PDL 4,035.1 · session 4,157.7/4,063.5 · support [4135.64, 4091.88, 4062.5] · resistance [4170.87, 4199.3, 4229.8] · H4 last event: BOS bullish @ 4143.3
+- **XAGUSD** 53.435 · D1 -1 / H4 +0 (structure D1 bearish, H4 bullish) · H4 RSI 61 · H1 ATR 0.415 · vol normal
+  PDH 51.845 / PDL 51.803 · session 53.78/51.645 · support [53.376, 52.542, 51.38] · resistance [54.546, 55.56, 56.924] · H4 last event: BOS bullish @ 52.375
+- **USOIL** 86.43 · D1 +0 / H4 -1 (structure D1 bearish, H4 bearish) · H4 RSI 27.4 · H1 ATR 1.192 · vol high
+  PDH 92.53 / PDL 89.07 · session 91.42/85.02 · support [] · resistance [87.96, 89.735, 91.903] · H4 last event: BOS bearish @ 89.07
+- **UKOIL** 92.31 · D1 +0 / H4 -1 (structure D1 bearish, H4 bearish) · H4 RSI 27.2 · H1 ATR 1.326 · vol high
+  PDH 100.92 / PDL 96.65 · session 98.42/90.63 · support [] · resistance [93.4, 96.65, 100.447] · H4 last event: BOS bearish @ 96.65
 
 ## F. Overnight risk
 | Time (EAT) | Event | Ctry | Impact | Actual | Forecast | Previous | Affects |
 |---|---|---|---|---|---|---|---|
-| Mon 09 Nov 04:30 | CPI y/y | CNY | Low | — | 0.8% | 0.9% | XAUUSD, XAGUSD |
 | Mon 09 Nov 16:40 | FOMC Member Bowman Speaks | USD | Low | — | — | — | XAUUSD, XAGUSD, USOIL, UKOIL |
 | Mon 09 Nov 18:00 | FOMC Member Goolsbee Speaks | USD | Low | — | — | — | XAUUSD, XAGUSD, USOIL, UKOIL |
 | Mon 09 Nov 20:15 | FOMC Member Barkin Speaks | USD | Low | — | — | — | XAUUSD, XAGUSD, USOIL, UKOIL |
@@ -67,10 +66,13 @@ No US releases with published actuals in the window.
 | Tue 10 Nov 23:30 | FOMC Member Bowman Speaks | USD | Low | — | — | — | XAUUSD, XAGUSD, USOIL, UKOIL |
 | Wed 11 Nov 02:30 | FOMC Member Bowman Speaks | USD | Low | — | — | — | XAUUSD, XAGUSD, USOIL, UKOIL |
 | Wed 11 Nov 02:30 | FOMC Member Paulson Speaks | USD | Low | — | — | — | XAUUSD, XAGUSD, USOIL, UKOIL |
+| Wed 11 Nov 10:00 | German Final CPI m/m | EUR | Low | — | -0.2% | -0.2% | XAUUSD, XAGUSD |
 
 _Source: Forex Factory weekly calendar export. Entries are blocked ±90 min around high-impact events for affected instruments._
 
 - Daily CFD break ~00:00–01:05 EAT; spreads widen around it. Friday close ~23:58 EAT; weekend gaps can jump stops.
+- USOIL: elevated volatility (H1 ATR high percentile)
+- UKOIL: elevated volatility (H1 ATR high percentile)
 - Prices are from delayed public futures data, not your Exness feed; CFD prices differ by a basis/spread. Nothing here is executable until the MT5 bridge is connected.
 
 ## G. Next-session outlook
