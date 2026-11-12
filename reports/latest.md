@@ -1,45 +1,59 @@
-# EXNESS AI — MORNING MARKET INTELLIGENCE
+# EXNESS AI — EVENING MARKET INTELLIGENCE
 
-**Thursday 12 November 2026, 14:55 EAT**
+**Friday 13 November 2026, 00:56 EAT**
 
 > Research output, not financial advice. No trades are placed by this system. Stops are not guaranteed; gaps and slippage can exceed planned losses.
 
-## A. Market overview
-Cross-asset: DXY 102.906 (-0.004, 20d trend up, close of 2026-11-12); US10Y 4.998 (+0.015, 20d trend up, close of 2026-11-11); gold/silver ratio 77.4.
+## A. What changed today
+- XAUUSD: 3,950.6 → 3,881.2 (-69.400); signal WAIT/NO SETUP → WAIT/MARKET CLOSED
+- XAGUSD: 51.03 → 49.935 (-1.095); signal WAIT/NO SETUP → WAIT/MARKET CLOSED
+- USOIL: 85.96 → 88.72 (+2.760); signal WAIT/NO SETUP → WAIT/MARKET CLOSED
+- UKOIL: 92.24 → 95.79 (+3.550); signal WAIT/NO SETUP → WAIT/MARKET CLOSED
+
+Cross-asset: DXY 103.181 (+0.271, 20d trend up, close of 2026-11-12); US10Y 5.103 (+0.105, 20d trend up, close of 2026-11-12); gold/silver ratio 77.7.
 
 Recent headlines (titles only, unverified beyond the publisher):
-- [India Boosts Gulf Oil Imports as Russian Crude Loses Its Price Advantage](https://oilprice.com/Latest-Energy-News/World-News/India-Boosts-Gulf-Oil-Imports-as-Russian-Crude-Loses-Its-Price-Advantage.html) — OilPrice.com, 12 Nov 14:30 EAT
-- [Asian Oil Buyers Turn to Africa and Brazil as Tanker Rates Plunge](https://oilprice.com/Latest-Energy-News/World-News/Asian-Oil-Buyers-Turn-to-Africa-and-Brazil-as-Tanker-Rates-Plunge.html) — OilPrice.com, 12 Nov 11:30 EAT
-- [ASEAN Moves to Build Emergency Oil Reserves Amid Iran Supply Crisis](https://oilprice.com/Latest-Energy-News/World-News/ASEAN-Moves-to-Build-Emergency-Oil-Reserves-Amid-Iran-Supply-Crisis.html) — OilPrice.com, 12 Nov 10:30 EAT
-- [Oil Prices Sink as Iran and Ukraine Peace Optimism Builds](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Sink-as-Iran-and-Ukraine-Peace-Optimism-Builds.html) — OilPrice.com, 12 Nov 09:35 EAT
+- [EIA forecasts Alaskan crude oil production to grow 13% in 2027](https://www.eia.gov/todayinenergy/detail.php?id=68444) — EIA Today in Energy, 12 Nov 17:00 EAT
+- [$7 Billion in Oil Debt Has Nigerian Banks Holding Back Lending](https://oilprice.com/Latest-Energy-News/World-News/7-Billion-in-Oil-Debt-Has-Nigerian-Banks-Holding-Back-Lending.html) — OilPrice.com, 12 Nov 23:30 EAT
+- [EIA Data Shows Builds in Crude, Gasoline and Distillates](https://oilprice.com/Energy/Crude-Oil/EIA-Data-Shows-Builds-in-Crude-Gasoline-and-Distillates.html) — OilPrice.com, 12 Nov 20:46 EAT
+- [Brent Briefly Hits $96 After Trump Says U.S. Has No Need for Iran Deal](https://oilprice.com/Latest-Energy-News/World-News/Brent-Briefly-Hits-94-After-Trump-Says-US-Has-No-Need-for-Iran-Deal.html) — OilPrice.com, 12 Nov 20:30 EAT
+- [Angola Looks to Diversify from Crude with Windfall Oil Revenues](https://oilprice.com/Latest-Energy-News/World-News/Angola-Looks-to-Diversify-from-Crude-with-Windfall-Oil-Revenues.html) — OilPrice.com, 12 Nov 17:30 EAT
 
-**Levels and readings**
-- **XAUUSD** 3,950.6 · D1 -1 / H4 -1 (structure D1 bullish, H4 bearish) · H4 RSI 33.7 · H1 ATR 15.93 · vol normal
-  PDH 4,074.7 / PDL 3,989.6 · session 4,005.9/3,929.5 · support [3904.1, 3879.3] · resistance [3992.47, 4037.92, 4074.05] · H4 last event: BOS bearish @ 4020.8
-- **XAGUSD** 51.03 · D1 -1 / H4 -1 (structure D1 bearish, H4 bearish) · H4 RSI 44.6 · H1 ATR 0.37 · vol normal
-  PDH 51.881 / PDL 51.325 · session 51.945/50.725 · support [50.595, 49.96, 48.832] · resistance [51.217, 51.771, 52.542] · H4 last event: CHoCH bearish @ 51.942
-- **USOIL** 85.96 · D1 +0 / H4 -1 (structure D1 bearish, H4 bearish) · H4 RSI 44.6 · H1 ATR 0.664 · vol low
-  PDH 88.74 / PDL 85.81 · session 87.54/85.2 · support [85.415, 83.88] · resistance [86.83, 89.14, 92.088] · H4 last event: CHoCH bearish @ 85.81
-- **UKOIL** 92.24 · D1 +0 / H4 -1 (structure D1 bearish, H4 bearish) · H4 RSI 45.1 · H1 ATR 0.713 · vol low
-  PDH 94.73 / PDL 91.48 · session 93.92/91.19 · support [91.055, 89.15] · resistance [93.4, 94.73, 96.65] · H4 last event: BOS bearish @ 90.63
-
-## B. Trade signal table
+## B. Updated signals
 | Instrument | Price | Signal | Entry trigger | Stop | TP1 | TP2 | R:R |
 |---|---|---|---|---|---|---|---|
-| XAUUSD | 3,950.6 | WAIT (NO SETUP) | — | — | — | — | — |
-| XAGUSD | 51.03 | WAIT (NO SETUP) | — | — | — | — | — |
-| USOIL | 85.96 | WAIT (NO SETUP) | — | — | — | — | — |
-| UKOIL | 92.24 | WAIT (NO SETUP) | — | — | — | — | — |
+| XAUUSD | 3,881.2 | WAIT (MARKET CLOSED) | — | — | — | — | — |
+| XAGUSD | 49.935 | WAIT (MARKET CLOSED) | — | — | — | — | — |
+| USOIL | 88.72 | WAIT (MARKET CLOSED) | — | — | — | — | — |
+| UKOIL | 95.79 | WAIT (MARKET CLOSED) | — | — | — | — | — |
 
-- XAUUSD: WAIT — only 0.32R of room to the nearest support
-- XAGUSD: WAIT — only 0.14R of room to the nearest support
-- USOIL: WAIT — D1 bias +0 and H4 bias -1 do not agree
-- UKOIL: WAIT — D1 bias +0 and H4 bias -1 do not agree
+- XAUUSD: WAIT — market closed: daily maintenance break (~21:00-22:05 UTC); trend agrees but no H1 pullback/retest setup
+- XAGUSD: WAIT — market closed: daily maintenance break (~21:00-22:05 UTC); trend agrees but no H1 pullback/retest setup; only 0.58R of room to the nearest support
+- USOIL: WAIT — market closed: daily maintenance break (~21:00-22:05 UTC); D1 bias +0 and H4 bias -1 do not agree
+- UKOIL: WAIT — market closed: daily maintenance break (~21:00-22:05 UTC); D1 bias +0 and H4 bias -1 do not agree
 
-## C. Best-supported setup
-No instrument meets every rule. Nothing to rank.
+## C. Morning signal review
+No BUY/SELL setups were issued this morning.
 
-## D. Key economic events
+## D. Open-position review
+Screenshot position (historical, unverified): USOIL BUY 0.02 @ 100.685. **If still open**, every $1.00 move in WTI = $20.0 (~69.4% of the $28.82 balance); a $1.441 adverse move would erase the whole balance (before margin stop-out, which comes sooner). Contract size assumed 1,000 bbl/lot (UNVERIFIED).
+- NOT CONFIGURED: no MT5 bridge snapshot. Positions cannot be verified.
+- Equity used for sizing: UNVERIFIED — using last known balance $28.82
+
+## E. US session analysis
+No US releases with published actuals in the window.
+
+**Levels and readings**
+- **XAUUSD** 3,881.2 · D1 -1 / H4 -1 (structure D1 bullish, H4 bearish) · H4 RSI 27.1 · H1 ATR 18.56 · vol normal
+  PDH 4,074.7 / PDL 3,989.6 · session 4,005.9/3,856.7 · support [3879.3] · resistance [3904.1, 3992.47, 4037.92] · H4 last event: BOS bearish @ 4020.8
+- **XAGUSD** 49.935 · D1 -1 / H4 -1 (structure D1 bearish, H4 bearish) · H4 RSI 35.9 · H1 ATR 0.379 · vol normal
+  PDH 51.881 / PDL 51.325 · session 51.945/49.665 · support [48.832] · resistance [49.96, 50.595, 51.312] · H4 last event: BOS bearish @ 51.11
+- **USOIL** 88.72 · D1 +0 / H4 -1 (structure D1 bearish, H4 bullish) · H4 RSI 54.1 · H1 ATR 0.792 · vol normal
+  PDH 88.74 / PDL 85.81 · session 89.15/85.13 · support [86.83, 85.415, 83.88] · resistance [89.14, 92.088, 93.808] · H4 last event: CHoCH bullish @ 88.74
+- **UKOIL** 95.79 · D1 +0 / H4 -1 (structure D1 bearish, H4 bullish) · H4 RSI 55.7 · H1 ATR 0.844 · vol normal
+  PDH 94.73 / PDL 91.48 · session 96.25/91.19 · support [94.73, 93.4, 91.1] · resistance [96.65, 100.86, 102.832] · H4 last event: CHoCH bullish @ 94.73
+
+## F. Overnight risk
 | Time (EAT) | Event | Ctry | Impact | Actual | Forecast | Previous | Affects |
 |---|---|---|---|---|---|---|---|
 | Thu 12 Nov 16:30 | Unemployment Claims | USD | Medium | — | 194K | 189K | XAUUSD, XAGUSD |
@@ -60,15 +74,12 @@ No instrument meets every rule. Nothing to rank.
 
 _Source: Forex Factory weekly calendar export. Entries are blocked ±90 min around high-impact events for affected instruments._
 
-## E. Open-position review
-Screenshot position (historical, unverified): USOIL BUY 0.02 @ 100.685. **If still open**, every $1.00 move in WTI = $20.0 (~69.4% of the $28.82 balance); a $1.441 adverse move would erase the whole balance (before margin stop-out, which comes sooner). Contract size assumed 1,000 bbl/lot (UNVERIFIED).
-- NOT CONFIGURED: no MT5 bridge snapshot. Positions cannot be verified.
-- Equity used for sizing: UNVERIFIED — using last known balance $28.82
-
-## F. Risk warnings
-- XAUUSD: NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$80.04 at this stop vs $0.14 budget
-- XAGUSD: NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$50.20 at this stop vs $0.14 budget
+- Daily CFD break ~00:00–01:05 EAT; spreads widen around it. Friday close ~23:58 EAT; weekend gaps can jump stops.
+- XAUUSD: NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$19.96 at this stop vs $0.14 budget
+- XAGUSD: NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$92.80 at this stop vs $0.14 budget
 - Prices are from delayed public futures data, not your Exness feed; CFD prices differ by a basis/spread. Nothing here is executable until the MT5 bridge is connected.
 
-## G. Final decision
-**NO TRADE.** No instrument has a qualifying setup.
+## G. Next-session outlook
+Watch the levels above; a setup needs D1/H4 agreement, an H1 pullback and M15 confirmation.
+
+**Decision:** **NO TRADE.** No instrument has a qualifying setup.

@@ -2,40 +2,38 @@
  "XAUUSD": {
   "key": "XAUUSD",
   "broker_symbol": "XAUUSD",
-  "ts": "2026-11-12T11:55:17.038843+00:00",
+  "ts": "2026-11-12T21:56:49.110302+00:00",
   "signal": "WAIT",
-  "state": "NO SETUP",
+  "state": "MARKET CLOSED",
   "direction_text": "bearish",
   "regime": "bearish, breaking previous-day range",
-  "price": 3950.6,
+  "price": 3881.2,
   "bid": null,
   "ask": null,
   "spread": null,
-  "entry_trigger": "M15 close below 3929.50 with RSI <50 and MACD hist <0",
-  "entry": 3929.5,
-  "stop": 4009.09,
-  "tp1": 3770.33,
-  "tp2": 3690.74,
+  "entry_trigger": "M15 close below 3876.90 with RSI <50 and MACD hist <0",
+  "entry": 3876.9,
+  "stop": 3896.41,
+  "tp1": 3837.87,
+  "tp2": 3818.36,
   "rr": 2.0,
-  "rr_to_obstacle": 0.32,
+  "rr_to_obstacle": null,
   "holding": "intraday to 2 days (H1 setup)",
-  "invalidation": "H1 close above 4009.09 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-12T23:55:17.038843+00:00",
-  "event": "Unemployment Claims (USD, Medium) Thu 12 Nov 16:30 EAT",
+  "invalidation": "H1 close above 3896.41 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
+  "expires_utc": "2026-11-13T09:56:49.110302+00:00",
+  "event": "FOMC Member Williams Speaks (USD, Low) Fri 13 Nov 02:30 EAT",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
-   "inside open H1 FVG",
-   "M15 RSI 40.5",
+   "M15 RSI 41.3",
    "H4 BOS bearish",
    "fundamentals: DXY 20d trend up, US10Y 20d trend up"
   ],
-  "contrary": [
-   "nearest opposing level only 0.32R away"
-  ],
+  "contrary": [],
   "reasons_wait": [
-   "only 0.32R of room to the nearest support"
+   "market closed: daily maintenance break (~21:00-22:05 UTC)",
+   "trend agrees but no H1 pullback/retest setup"
   ],
-  "score": 68,
+  "score": 67,
   "score_breakdown": {
    "htf_trend": "14/20",
    "technical": "5/15",
@@ -43,27 +41,27 @@
    "volatility": "10/10",
    "fundamental": "10/10",
    "costs": "4/10",
-   "reward_risk": "0/10",
-   "event_risk": "5/5",
-   "liquidity": "5/5"
+   "reward_risk": "7/10",
+   "event_risk": "2/5",
+   "liquidity": "0/5"
   },
   "risk": {
    "equity": 28.82,
    "max_loss_allowed": 0.14,
-   "stop_distance": 79.59,
+   "stop_distance": 19.51,
    "tick_size": 0.01,
    "tick_value_per_lot": 1.0,
    "contract_size": 100,
    "min_lot": 0.01,
-   "loss_per_min_lot": 80.04,
+   "loss_per_min_lot": 19.96,
    "allowed_lots": 0.0,
    "planned_lots": 0.0,
-   "max_loss_at_stop": 80.04,
+   "max_loss_at_stop": 19.96,
    "spread_cost": 0.25,
    "slippage_cost": 0.2,
-   "required_margin": 19.65,
+   "required_margin": 19.38,
    "executable": false,
-   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$80.04 at this stop vs $0.14 budget",
+   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$19.96 at this stop vs $0.14 budget",
    "specs_verified": false
   },
   "executable": false,
@@ -75,15 +73,14 @@
    "prev_day_high": 4074.7,
    "prev_day_low": 3989.6,
    "session_high": 4005.9,
-   "session_low": 3929.5,
+   "session_low": 3856.7,
    "support": [
-    3904.1,
     3879.3
    ],
    "resistance": [
+    3904.1,
     3992.47,
-    4037.92,
-    4074.05
+    4037.92
    ],
    "h4_swing_high": 4074.7,
    "h4_swing_low": 4020.8,
@@ -105,8 +102,8 @@
     },
     {
      "dir": "bearish",
-     "top": 3960.6,
-     "bottom": 3950.3
+     "top": 3937.4,
+     "bottom": 3913.9
     }
    ],
    "zones_h1": [
@@ -121,7 +118,7 @@
      "bottom": 4081.1
     }
    ],
-   "latest_m15_bar_utc": "2026-11-12T11:30:00+00:00"
+   "latest_m15_bar_utc": "2026-11-12T21:30:00+00:00"
   },
   "indicators": {
    "D1": {
@@ -137,39 +134,39 @@
     "bias": -1
    },
    "H4": {
-    "close": 3970.5,
-    "ema20": 4041.08,
-    "ema50": 4048.78,
-    "ema200": 4117.88,
-    "rsi14": 33.7,
-    "macd_hist": -14.411,
-    "atr14": 32.23,
-    "bb_upper": 4178.55,
-    "bb_lower": 3955.52,
+    "close": 3888.8,
+    "ema20": 4005.09,
+    "ema50": 4032.35,
+    "ema200": 4111.56,
+    "rsi14": 27.1,
+    "macd_hist": -19.865,
+    "atr14": 36.43,
+    "bb_upper": 4189.81,
+    "bb_lower": 3881.8,
     "bias": -1
    },
    "H1": {
-    "close": 3959.2,
-    "ema20": 3986.81,
-    "ema50": 4022.94,
-    "ema200": 4049.95,
-    "rsi14": 34.3,
-    "macd_hist": -1.905,
-    "atr14": 15.93,
-    "bb_upper": 4027.13,
-    "bb_lower": 3944.65,
+    "close": 3879.5,
+    "ema20": 3926.1,
+    "ema50": 3980.21,
+    "ema200": 4035.18,
+    "rsi14": 26.2,
+    "macd_hist": -2.444,
+    "atr14": 18.56,
+    "bb_upper": 4021.94,
+    "bb_lower": 3844.96,
     "bias": -1
    },
    "M15": {
-    "close": 3950.6,
-    "ema20": 3956.88,
-    "ema50": 3971.67,
-    "ema200": 4021.52,
-    "rsi14": 40.5,
-    "macd_hist": 1.698,
-    "atr14": 7.34,
-    "bb_upper": 3974.94,
-    "bb_lower": 3933.38,
+    "close": 3881.2,
+    "ema20": 3885.3,
+    "ema50": 3904.53,
+    "ema200": 3978.62,
+    "rsi14": 41.3,
+    "macd_hist": 1.239,
+    "atr14": 6.86,
+    "bb_upper": 3891.94,
+    "bb_lower": 3875.05,
     "bias": -1
    },
    "structure": {
@@ -182,7 +179,7 @@
     "M15_candle": null,
     "volatility": {
      "regime": "normal",
-     "percentile": 27.5
+     "percentile": 56.7
     }
    }
   }
@@ -190,69 +187,69 @@
  "XAGUSD": {
   "key": "XAGUSD",
   "broker_symbol": "XAGUSD",
-  "ts": "2026-11-12T11:55:17.038843+00:00",
+  "ts": "2026-11-12T21:56:49.110302+00:00",
   "signal": "WAIT",
-  "state": "NO SETUP",
+  "state": "MARKET CLOSED",
   "direction_text": "bearish",
   "regime": "bearish, breaking previous-day range",
-  "price": 51.03,
+  "price": 49.935,
   "bid": null,
   "ask": null,
   "spread": null,
-  "entry_trigger": "M15 close below 50.725 with RSI <50 and MACD hist <0",
-  "entry": 50.725,
-  "stop": 51.679,
-  "tp1": 48.817,
-  "tp2": 47.863,
+  "entry_trigger": "M15 close below 49.875 with RSI <50 and MACD hist <0",
+  "entry": 49.875,
+  "stop": 51.681,
+  "tp1": 46.263,
+  "tp2": 44.457,
   "rr": 2.0,
-  "rr_to_obstacle": 0.14,
+  "rr_to_obstacle": 0.58,
   "holding": "intraday to 2 days (H1 setup)",
-  "invalidation": "H1 close above 51.679 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-12T23:55:17.038843+00:00",
-  "event": "Unemployment Claims (USD, Medium) Thu 12 Nov 16:30 EAT",
+  "invalidation": "H1 close above 51.681 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
+  "expires_utc": "2026-11-13T09:56:49.110302+00:00",
+  "event": "FOMC Member Williams Speaks (USD, Low) Fri 13 Nov 02:30 EAT",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
-   "H1 pullback to EMA20/50 zone",
-   "M15 RSI 41.9",
-   "H4 CHoCH bearish",
-   "fundamentals: DXY 20d trend up, US10Y 20d trend up; gold/silver ratio 77.4"
+   "M15 RSI 38.4",
+   "H4 BOS bearish",
+   "fundamentals: DXY 20d trend up, US10Y 20d trend up; gold/silver ratio 77.7"
   ],
   "contrary": [
-   "H1 bullish RSI divergence",
-   "nearest opposing level only 0.14R away"
+   "nearest opposing level only 0.58R away"
   ],
   "reasons_wait": [
-   "only 0.14R of room to the nearest support"
+   "market closed: daily maintenance break (~21:00-22:05 UTC)",
+   "trend agrees but no H1 pullback/retest setup",
+   "only 0.58R of room to the nearest support"
   ],
-  "score": 69,
+  "score": 66,
   "score_breakdown": {
    "htf_trend": "20/20",
    "technical": "5/15",
-   "structure": "10/15",
+   "structure": "15/15",
    "volatility": "10/10",
    "fundamental": "10/10",
    "costs": "4/10",
    "reward_risk": "0/10",
-   "event_risk": "5/5",
-   "liquidity": "5/5"
+   "event_risk": "2/5",
+   "liquidity": "0/5"
   },
   "risk": {
    "equity": 28.82,
    "max_loss_allowed": 0.14,
-   "stop_distance": 0.954,
+   "stop_distance": 1.806,
    "tick_size": 0.001,
    "tick_value_per_lot": 5.0,
    "contract_size": 5000,
    "min_lot": 0.01,
-   "loss_per_min_lot": 50.2,
+   "loss_per_min_lot": 92.8,
    "allowed_lots": 0.0,
    "planned_lots": 0.0,
-   "max_loss_at_stop": 50.2,
+   "max_loss_at_stop": 92.8,
    "spread_cost": 1.5,
    "slippage_cost": 1.0,
-   "required_margin": 12.68,
+   "required_margin": 12.47,
    "executable": false,
-   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$50.20 at this stop vs $0.14 budget",
+   "reason": "NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$92.80 at this stop vs $0.14 budget",
    "specs_verified": false
   },
   "executable": false,
@@ -264,16 +261,14 @@
    "prev_day_high": 51.881,
    "prev_day_low": 51.325,
    "session_high": 51.945,
-   "session_low": 50.725,
+   "session_low": 49.665,
    "support": [
-    50.595,
-    49.96,
     48.832
    ],
    "resistance": [
-    51.217,
-    51.771,
-    52.542
+    49.96,
+    50.595,
+    51.312
    ],
    "h4_swing_high": 53.18,
    "h4_swing_low": 51.11,
@@ -287,6 +282,11 @@
      "dir": "bearish",
      "top": 51.975,
      "bottom": 51.91
+    },
+    {
+     "dir": "bearish",
+     "top": 50.82,
+     "bottom": 50.52
     }
    ],
    "zones_h1": [
@@ -304,9 +304,14 @@
      "type": "supply",
      "top": 51.495,
      "bottom": 51.065
+    },
+    {
+     "type": "supply",
+     "top": 51.1,
+     "bottom": 50.82
     }
    ],
-   "latest_m15_bar_utc": "2026-11-12T11:30:00+00:00"
+   "latest_m15_bar_utc": "2026-11-12T21:30:00+00:00"
   },
   "indicators": {
    "D1": {
@@ -322,52 +327,52 @@
     "bias": -1
    },
    "H4": {
-    "close": 51.445,
-    "ema20": 52.047,
-    "ema50": 52.165,
-    "ema200": 55.747,
-    "rsi14": 44.6,
-    "macd_hist": -0.1484,
-    "atr14": 0.762,
-    "bb_upper": 53.718,
-    "bb_lower": 50.953,
+    "close": 50.085,
+    "ema20": 51.597,
+    "ema50": 51.957,
+    "ema200": 55.587,
+    "rsi14": 35.9,
+    "macd_hist": -0.2716,
+    "atr14": 0.79,
+    "bb_upper": 53.953,
+    "bb_lower": 50.041,
     "bias": -1
    },
    "H1": {
-    "close": 51.285,
-    "ema20": 51.597,
-    "ema50": 51.953,
-    "ema200": 52.262,
-    "rsi14": 41.5,
-    "macd_hist": -0.0402,
-    "atr14": 0.37,
-    "bb_upper": 52.372,
-    "bb_lower": 50.869,
+    "close": 49.94,
+    "ema20": 50.688,
+    "ema50": 51.375,
+    "ema200": 52.067,
+    "rsi14": 29.6,
+    "macd_hist": -0.0528,
+    "atr14": 0.379,
+    "bb_upper": 52.073,
+    "bb_lower": 49.514,
     "bias": -1
    },
    "M15": {
-    "close": 51.03,
-    "ema20": 51.187,
-    "ema50": 51.385,
-    "ema200": 51.935,
-    "rsi14": 41.9,
-    "macd_hist": 0.0081,
-    "atr14": 0.177,
-    "bb_upper": 51.469,
-    "bb_lower": 50.863,
+    "close": 49.935,
+    "ema20": 50.043,
+    "ema50": 50.356,
+    "ema200": 51.35,
+    "rsi14": 38.4,
+    "macd_hist": 0.0149,
+    "atr14": 0.138,
+    "bb_upper": 50.168,
+    "bb_lower": 49.879,
     "bias": -1
    },
    "structure": {
     "D1": "bearish",
     "H4": "bearish",
     "H1": "bearish",
-    "H4_last_event": "CHoCH bearish @ 51.942",
-    "H1_divergence": "bullish",
-    "H1_sweeps": 3,
-    "M15_candle": null,
+    "H4_last_event": "BOS bearish @ 51.11",
+    "H1_divergence": null,
+    "H1_sweeps": 0,
+    "M15_candle": "bullish_pin",
     "volatility": {
      "regime": "normal",
-     "percentile": 24.2
+     "percentile": 29.2
     }
    }
   }
@@ -375,12 +380,12 @@
  "USOIL": {
   "key": "USOIL",
   "broker_symbol": "USOIL",
-  "ts": "2026-11-12T11:55:17.038843+00:00",
+  "ts": "2026-11-12T21:56:49.110302+00:00",
   "signal": "WAIT",
-  "state": "NO SETUP",
+  "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
   "regime": "reversing (H4 CHoCH)",
-  "price": 85.96,
+  "price": 88.72,
   "bid": null,
   "ask": null,
   "spread": null,
@@ -394,23 +399,24 @@
   "holding": "",
   "invalidation": "",
   "expires_utc": null,
-  "event": "FOMC Member Hammack Speaks (USD, Low) Thu 12 Nov 16:30 EAT",
+  "event": "FOMC Member Williams Speaks (USD, Low) Fri 13 Nov 02:30 EAT",
   "supporting": [],
   "contrary": [],
   "reasons_wait": [
+   "market closed: daily maintenance break (~21:00-22:05 UTC)",
    "D1 bias +0 and H4 bias -1 do not agree"
   ],
-  "score": 24,
+  "score": 21,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
    "structure": "0/15",
-   "volatility": "5/10",
+   "volatility": "10/10",
    "fundamental": "5/10",
    "costs": "4/10",
    "reward_risk": "0/10",
-   "event_risk": "5/5",
-   "liquidity": "5/5"
+   "event_risk": "2/5",
+   "liquidity": "0/5"
   },
   "risk": null,
   "executable": false,
@@ -421,33 +427,39 @@
   "levels": {
    "prev_day_high": 88.74,
    "prev_day_low": 85.81,
-   "session_high": 87.54,
-   "session_low": 85.2,
+   "session_high": 89.15,
+   "session_low": 85.13,
    "support": [
+    86.83,
     85.415,
     83.88
    ],
    "resistance": [
-    86.83,
     89.14,
-    92.088
+    92.088,
+    93.808
    ],
    "h4_swing_high": 88.74,
    "h4_swing_low": 85.81,
    "fvg_h1": [
     {
-     "dir": "bearish",
-     "top": 87.78,
-     "bottom": 87.4
+     "dir": "bullish",
+     "top": 86.12,
+     "bottom": 85.98
     },
     {
-     "dir": "bearish",
-     "top": 86.61,
-     "bottom": 86.33
+     "dir": "bullish",
+     "top": 88.0,
+     "bottom": 87.5
+    },
+    {
+     "dir": "bullish",
+     "top": 88.86,
+     "bottom": 88.44
     }
    ],
    "zones_h1": [],
-   "latest_m15_bar_utc": "2026-11-12T11:30:00+00:00"
+   "latest_m15_bar_utc": "2026-11-12T21:30:00+00:00"
   },
   "indicators": {
    "D1": {
@@ -463,52 +475,52 @@
     "bias": 0
    },
    "H4": {
-    "close": 86.96,
-    "ema20": 87.322,
-    "ema50": 90.456,
-    "ema200": 93.875,
-    "rsi14": 44.6,
-    "macd_hist": 0.3124,
-    "atr14": 1.597,
-    "bb_upper": 89.982,
-    "bb_lower": 83.821,
+    "close": 88.86,
+    "ema20": 87.299,
+    "ema50": 90.085,
+    "ema200": 93.676,
+    "rsi14": 54.1,
+    "macd_hist": 0.452,
+    "atr14": 1.759,
+    "bb_upper": 88.358,
+    "bb_lower": 84.6,
     "bias": -1
    },
    "H1": {
-    "close": 85.81,
-    "ema20": 86.306,
-    "ema50": 86.639,
-    "ema200": 90.538,
-    "rsi14": 44.0,
-    "macd_hist": 0.0027,
-    "atr14": 0.664,
-    "bb_upper": 88.065,
-    "bb_lower": 84.883,
-    "bias": -1
+    "close": 88.94,
+    "ema20": 87.132,
+    "ema50": 86.899,
+    "ema200": 90.233,
+    "rsi14": 71.9,
+    "macd_hist": 0.3204,
+    "atr14": 0.792,
+    "bb_upper": 88.815,
+    "bb_lower": 84.511,
+    "bias": 0
    },
    "M15": {
-    "close": 85.96,
-    "ema20": 86.172,
-    "ema50": 86.244,
-    "ema200": 86.652,
-    "rsi14": 44.2,
-    "macd_hist": -0.0862,
-    "atr14": 0.321,
-    "bb_upper": 87.452,
-    "bb_lower": 85.437,
-    "bias": -1
+    "close": 88.72,
+    "ema20": 88.378,
+    "ema50": 87.586,
+    "ema200": 86.961,
+    "rsi14": 64.7,
+    "macd_hist": -0.0368,
+    "atr14": 0.343,
+    "bb_upper": 89.52,
+    "bb_lower": 87.316,
+    "bias": 1
    },
    "structure": {
     "D1": "bearish",
-    "H4": "bearish",
-    "H1": "bearish",
-    "H4_last_event": "CHoCH bearish @ 85.81",
-    "H1_divergence": null,
-    "H1_sweeps": 3,
-    "M15_candle": "bearish_engulfing",
+    "H4": "bullish",
+    "H1": "bullish",
+    "H4_last_event": "CHoCH bullish @ 88.74",
+    "H1_divergence": "bearish",
+    "H1_sweeps": 0,
+    "M15_candle": null,
     "volatility": {
-     "regime": "low",
-     "percentile": 12.5
+     "regime": "normal",
+     "percentile": 31.7
     }
    }
   }
@@ -516,12 +528,12 @@
  "UKOIL": {
   "key": "UKOIL",
   "broker_symbol": "UKOIL",
-  "ts": "2026-11-12T11:55:17.038843+00:00",
+  "ts": "2026-11-12T21:56:49.110302+00:00",
   "signal": "WAIT",
-  "state": "NO SETUP",
+  "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
-  "regime": "range-bound / mixed",
-  "price": 92.24,
+  "regime": "reversing (H4 CHoCH)",
+  "price": 95.79,
   "bid": null,
   "ask": null,
   "spread": null,
@@ -535,23 +547,24 @@
   "holding": "",
   "invalidation": "",
   "expires_utc": null,
-  "event": "FOMC Member Hammack Speaks (USD, Low) Thu 12 Nov 16:30 EAT",
+  "event": "FOMC Member Williams Speaks (USD, Low) Fri 13 Nov 02:30 EAT",
   "supporting": [],
   "contrary": [],
   "reasons_wait": [
+   "market closed: daily maintenance break (~21:00-22:05 UTC)",
    "D1 bias +0 and H4 bias -1 do not agree"
   ],
-  "score": 24,
+  "score": 21,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
    "structure": "0/15",
-   "volatility": "5/10",
+   "volatility": "10/10",
    "fundamental": "5/10",
    "costs": "4/10",
    "reward_risk": "0/10",
-   "event_risk": "5/5",
-   "liquidity": "5/5"
+   "event_risk": "2/5",
+   "liquidity": "0/5"
   },
   "risk": null,
   "executable": false,
@@ -562,19 +575,20 @@
   "levels": {
    "prev_day_high": 94.73,
    "prev_day_low": 91.48,
-   "session_high": 93.92,
+   "session_high": 96.25,
    "session_low": 91.19,
    "support": [
-    91.055,
-    89.15
+    94.73,
+    93.4,
+    91.1
    ],
    "resistance": [
-    93.4,
-    94.73,
-    96.65
+    96.65,
+    100.86,
+    102.832
    ],
    "h4_swing_high": 94.73,
-   "h4_swing_low": 91.48,
+   "h4_swing_low": 91.19,
    "fvg_h1": [
     {
      "dir": "bullish",
@@ -583,13 +597,18 @@
     },
     {
      "dir": "bullish",
-     "top": 91.83,
-     "bottom": 91.66
+     "top": 92.9,
+     "bottom": 92.32
     },
     {
-     "dir": "bearish",
-     "top": 92.87,
-     "bottom": 92.53
+     "dir": "bullish",
+     "top": 94.94,
+     "bottom": 94.29
+    },
+    {
+     "dir": "bullish",
+     "top": 95.91,
+     "bottom": 95.47
     }
    ],
    "zones_h1": [
@@ -599,7 +618,7 @@
      "bottom": 91.61
     }
    ],
-   "latest_m15_bar_utc": "2026-11-12T11:30:00+00:00"
+   "latest_m15_bar_utc": "2026-11-12T21:30:00+00:00"
   },
   "indicators": {
    "D1": {
@@ -615,52 +634,52 @@
     "bias": 0
    },
    "H4": {
-    "close": 93.25,
-    "ema20": 93.501,
-    "ema50": 97.408,
-    "ema200": 102.095,
-    "rsi14": 45.1,
-    "macd_hist": 0.4354,
-    "atr14": 1.788,
-    "bb_upper": 96.816,
-    "bb_lower": 88.976,
+    "close": 95.93,
+    "ema20": 93.629,
+    "ema50": 97.014,
+    "ema200": 101.852,
+    "rsi14": 55.7,
+    "macd_hist": 0.6529,
+    "atr14": 1.951,
+    "bb_upper": 95.1,
+    "bb_lower": 89.83,
     "bias": -1
    },
    "H1": {
-    "close": 92.01,
-    "ema20": 92.406,
-    "ema50": 92.685,
-    "ema200": 97.554,
-    "rsi14": 46.1,
-    "macd_hist": 0.0049,
-    "atr14": 0.713,
-    "bb_upper": 94.06,
-    "bb_lower": 91.089,
-    "bias": -1
+    "close": 96.09,
+    "ema20": 93.733,
+    "ema50": 93.211,
+    "ema200": 97.232,
+    "rsi14": 73.9,
+    "macd_hist": 0.3852,
+    "atr14": 0.844,
+    "bb_upper": 96.021,
+    "bb_lower": 90.282,
+    "bias": 0
    },
    "M15": {
-    "close": 92.24,
-    "ema20": 92.413,
-    "ema50": 92.432,
-    "ema200": 92.718,
-    "rsi14": 46.0,
-    "macd_hist": -0.0913,
-    "atr14": 0.337,
-    "bb_upper": 93.847,
-    "bb_lower": 91.603,
-    "bias": -1
+    "close": 95.79,
+    "ema20": 95.407,
+    "ema50": 94.389,
+    "ema200": 93.3,
+    "rsi14": 65.5,
+    "macd_hist": -0.048,
+    "atr14": 0.355,
+    "bb_upper": 96.726,
+    "bb_lower": 94.168,
+    "bias": 1
    },
    "structure": {
     "D1": "bearish",
-    "H4": "bearish",
-    "H1": "bearish",
-    "H4_last_event": "BOS bearish @ 90.63",
-    "H1_divergence": null,
-    "H1_sweeps": 4,
-    "M15_candle": "bearish_engulfing",
+    "H4": "bullish",
+    "H1": "bullish",
+    "H4_last_event": "CHoCH bullish @ 94.73",
+    "H1_divergence": "bullish",
+    "H1_sweeps": 0,
+    "M15_candle": null,
     "volatility": {
-     "regime": "low",
-     "percentile": 11.7
+     "regime": "normal",
+     "percentile": 30.8
     }
    }
   }
