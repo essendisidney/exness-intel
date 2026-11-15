@@ -2,7 +2,7 @@
  "XAUUSD": {
   "key": "XAUUSD",
   "broker_symbol": "XAUUSD",
-  "ts": "2026-11-15T11:33:59.724433+00:00",
+  "ts": "2026-11-15T20:38:28.349306+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "bearish",
@@ -20,7 +20,7 @@
   "rr_to_obstacle": 0.4,
   "holding": "intraday to 2 days (H1 setup)",
   "invalidation": "H1 close above 3913.04 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-15T23:33:59.724433+00:00",
+  "expires_utc": "2026-11-16T08:38:28.349306+00:00",
   "event": "Retail Sales y/y (CNY, Low) Mon 16 Nov 05:00 EAT",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
@@ -32,11 +32,12 @@
    "nearest opposing level only 0.4R away"
   ],
   "reasons_wait": [
-   "data stale (2254 min old)",
+   "data stale (2798 min old)",
    "market closed: weekend close",
-   "only 0.4R of room to the nearest support"
+   "only 0.4R of room to the nearest support",
+   "score 55 below 60"
   ],
-  "score": 63,
+  "score": 55,
   "score_breakdown": {
    "htf_trend": "14/20",
    "technical": "0/15",
@@ -45,8 +46,8 @@
    "fundamental": "10/10",
    "costs": "4/10",
    "reward_risk": "0/10",
-   "event_risk": "5/5",
-   "liquidity": "5/5"
+   "event_risk": "2/5",
+   "liquidity": "0/5"
   },
   "risk": {
    "equity": 28.82,
@@ -186,7 +187,7 @@
  "XAGUSD": {
   "key": "XAGUSD",
   "broker_symbol": "XAGUSD",
-  "ts": "2026-11-15T11:33:59.724433+00:00",
+  "ts": "2026-11-15T20:38:28.349306+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "bearish",
@@ -204,7 +205,7 @@
   "rr_to_obstacle": null,
   "holding": "intraday to 2 days (H1 setup)",
   "invalidation": "H1 close above 50.324 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-15T23:33:59.724433+00:00",
+  "expires_utc": "2026-11-16T08:38:28.349306+00:00",
   "event": "Retail Sales y/y (CNY, Low) Mon 16 Nov 05:00 EAT",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
@@ -213,11 +214,11 @@
   ],
   "contrary": [],
   "reasons_wait": [
-   "data stale (2254 min old)",
+   "data stale (2798 min old)",
    "market closed: weekend close",
    "trend agrees but no H1 pullback/retest setup"
   ],
-  "score": 76,
+  "score": 68,
   "score_breakdown": {
    "htf_trend": "20/20",
    "technical": "0/15",
@@ -226,8 +227,8 @@
    "fundamental": "10/10",
    "costs": "4/10",
    "reward_risk": "7/10",
-   "event_risk": "5/5",
-   "liquidity": "5/5"
+   "event_risk": "2/5",
+   "liquidity": "0/5"
   },
   "risk": {
    "equity": 28.82,
@@ -381,7 +382,7 @@
  "USOIL": {
   "key": "USOIL",
   "broker_symbol": "USOIL",
-  "ts": "2026-11-15T11:33:59.724433+00:00",
+  "ts": "2026-11-15T20:38:28.349306+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
@@ -404,11 +405,11 @@
   "supporting": [],
   "contrary": [],
   "reasons_wait": [
-   "data stale (2239 min old)",
+   "data stale (2783 min old)",
    "market closed: weekend close",
    "D1 bias +0 and H4 bias -1 do not agree"
   ],
-  "score": 24,
+  "score": 19,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
@@ -418,7 +419,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "0/5"
   },
   "risk": null,
   "executable": false,
@@ -525,7 +526,7 @@
  "UKOIL": {
   "key": "UKOIL",
   "broker_symbol": "UKOIL",
-  "ts": "2026-11-15T11:33:59.724433+00:00",
+  "ts": "2026-11-15T20:38:28.349306+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
@@ -548,11 +549,11 @@
   "supporting": [],
   "contrary": [],
   "reasons_wait": [
-   "data stale (2254 min old)",
+   "data stale (2798 min old)",
    "market closed: weekend close",
    "D1 bias +0 and H4 bias -1 do not agree"
   ],
-  "score": 24,
+  "score": 19,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
@@ -562,7 +563,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "0/5"
   },
   "risk": null,
   "executable": false,
