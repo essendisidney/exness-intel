@@ -1,17 +1,43 @@
-# EXNESS AI — MORNING MARKET INTELLIGENCE
+# EXNESS AI — EVENING MARKET INTELLIGENCE
 
-**Saturday 21 November 2026, 14:51 EAT**
+**Sunday 22 November 2026, 00:15 EAT**
 
 > Research output, not financial advice. No trades are placed by this system. Stops are not guaranteed; gaps and slippage can exceed planned losses.
 
-## A. Market overview
+## A. What changed today
+- XAUUSD: 3,515.4 → 3,515.4 (+0.000); signal WAIT/MARKET CLOSED → WAIT/MARKET CLOSED
+- XAGUSD: 41.07 → 41.07 (+0.000); signal WAIT/MARKET CLOSED → WAIT/MARKET CLOSED
+- USOIL: 83.41 → 83.41 (+0.000); signal WAIT/MARKET CLOSED → WAIT/MARKET CLOSED
+- UKOIL: 89.95 → 89.95 (+0.000); signal WAIT/MARKET CLOSED → WAIT/MARKET CLOSED
+
 Cross-asset: DXY 103.81 (-0.09, 20d trend up, close of 2026-11-20); US10Y 4.912 (-0.14, 20d trend down, close of 2026-11-20); gold/silver ratio 85.6.
 
 Recent headlines (titles only, unverified beyond the publisher):
 - [Oil Prices Caught Between a Looming Glut and Middle East Turmoil](https://oilprice.com/Energy/Energy-General/Oil-Prices-Caught-Between-a-Looming-Glut-and-Middle-East-Turmoil.html) — OilPrice.com, 21 Nov 03:00 EAT
-- [Saudi Arabia Expands Oil Storage in Japan as Tokyo Restocks](https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Expands-Oil-Storage-in-Japan-as-Tokyo-Restocks.html) — OilPrice.com, 20 Nov 21:30 EAT
-- [U.S. Oil Drillers Pick Up the Pace Just as Oil Prices Fall](https://oilprice.com/Energy/Energy-General/US-Oil-Drillers-Pick-Up-the-Pace-Just-as-Oil-Prices-Fall.html) — OilPrice.com, 20 Nov 21:09 EAT
-- [Tankers Are Being Hit Daily. So Why Is Oil Falling?](https://oilprice.com/Energy/Crude-Oil/Tankers-Are-Being-Hit-Daily-So-Why-Is-Oil-Falling.html) — OilPrice.com, 20 Nov 20:11 EAT
+
+## B. Updated signals
+| Instrument | Price | Signal | Entry trigger | Stop | TP1 | TP2 | R:R |
+|---|---|---|---|---|---|---|---|
+| XAUUSD | 3,515.4 | WAIT (MARKET CLOSED) | — | — | — | — | — |
+| XAGUSD | 41.07 | WAIT (MARKET CLOSED) | — | — | — | — | — |
+| USOIL | 83.41 | WAIT (MARKET CLOSED) | — | — | — | — | — |
+| UKOIL | 89.95 | WAIT (MARKET CLOSED) | — | — | — | — | — |
+
+- XAUUSD: WAIT — data stale (1395 min old); market closed: weekend close; only 0.01R of room to the nearest support
+- XAGUSD: WAIT — data stale (1395 min old); market closed: weekend close
+- USOIL: WAIT — data stale (1395 min old); market closed: weekend close; D1 bias +0 and H4 bias -1 do not agree
+- UKOIL: WAIT — data stale (1395 min old); market closed: weekend close; D1 bias +0 and H4 bias -1 do not agree
+
+## C. Morning signal review
+No BUY/SELL setups were issued this morning.
+
+## D. Open-position review
+Screenshot position (historical, unverified): USOIL BUY 0.02 @ 100.685. **If still open**, every $1.00 move in WTI = $20.0 (~69.4% of the $28.82 balance); a $1.441 adverse move would erase the whole balance (before margin stop-out, which comes sooner). Contract size assumed 1,000 bbl/lot (UNVERIFIED).
+- NOT CONFIGURED: no MT5 bridge snapshot. Positions cannot be verified.
+- Equity used for sizing: UNVERIFIED — using last known balance $28.82
+
+## E. US session analysis
+No US releases with published actuals in the window.
 
 **Levels and readings**
 - **XAUUSD** 3,515.4 · D1 -1 / H4 -1 (structure D1 bearish, H4 bearish) · H4 RSI 16.7 · H1 ATR 28.11 · vol high
@@ -23,31 +49,10 @@ Recent headlines (titles only, unverified beyond the publisher):
 - **UKOIL** 89.95 · D1 +0 / H4 -1 (structure D1 bearish, H4 bearish) · H4 RSI 44.3 · H1 ATR 0.721 · vol normal
   PDH 93.05 / PDL 90.06 · session —/— · support [89.15, 87.65] · resistance [90.448, 91.307, 92.2] · H4 last event: BOS bearish @ 91.25
 
-## B. Trade signal table
-| Instrument | Price | Signal | Entry trigger | Stop | TP1 | TP2 | R:R |
-|---|---|---|---|---|---|---|---|
-| XAUUSD | 3,515.4 | WAIT (MARKET CLOSED) | — | — | — | — | — |
-| XAGUSD | 41.07 | WAIT (MARKET CLOSED) | — | — | — | — | — |
-| USOIL | 83.41 | WAIT (MARKET CLOSED) | — | — | — | — | — |
-| UKOIL | 89.95 | WAIT (MARKET CLOSED) | — | — | — | — | — |
-
-- XAUUSD: WAIT — data stale (831 min old); market closed: weekend close; only 0.01R of room to the nearest support
-- XAGUSD: WAIT — data stale (831 min old); market closed: weekend close
-- USOIL: WAIT — data stale (831 min old); market closed: weekend close; D1 bias +0 and H4 bias -1 do not agree
-- UKOIL: WAIT — data stale (831 min old); market closed: weekend close; D1 bias +0 and H4 bias -1 do not agree
-
-## C. Best-supported setup
-No instrument meets every rule. Nothing to rank.
-
-## D. Key economic events
+## F. Overnight risk
 No high-impact or tracked events in the window.
 
-## E. Open-position review
-Screenshot position (historical, unverified): USOIL BUY 0.02 @ 100.685. **If still open**, every $1.00 move in WTI = $20.0 (~69.4% of the $28.82 balance); a $1.441 adverse move would erase the whole balance (before margin stop-out, which comes sooner). Contract size assumed 1,000 bbl/lot (UNVERIFIED).
-- NOT CONFIGURED: no MT5 bridge snapshot. Positions cannot be verified.
-- Equity used for sizing: UNVERIFIED — using last known balance $28.82
-
-## F. Risk warnings
+- Daily CFD break ~00:00–01:05 EAT; spreads widen around it. Friday close ~23:58 EAT; weekend gaps can jump stops.
 - XAUUSD: NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$77.67 at this stop vs $0.14 budget
 - XAUUSD: elevated volatility (H1 ATR high percentile)
 - XAGUSD: NOT EXECUTABLE FOR ACCOUNT SIZE: minimum 0.01 lot loses ~$102.75 at this stop vs $0.14 budget
@@ -55,5 +60,7 @@ Screenshot position (historical, unverified): USOIL BUY 0.02 @ 100.685. **If sti
 - USOIL: elevated volatility (H1 ATR high percentile)
 - Prices are from delayed public futures data, not your Exness feed; CFD prices differ by a basis/spread. Nothing here is executable until the MT5 bridge is connected.
 
-## G. Final decision
-**NO TRADE.** No instrument has a qualifying setup.
+## G. Next-session outlook
+Watch the levels above; a setup needs D1/H4 agreement, an H1 pullback and M15 confirmation.
+
+**Decision:** **NO TRADE.** No instrument has a qualifying setup.
