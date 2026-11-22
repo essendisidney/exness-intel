@@ -1,6 +1,6 @@
 # EXNESS AI — EVENING MARKET INTELLIGENCE
 
-**Sunday 22 November 2026, 15:02 EAT**
+**Monday 23 November 2026, 00:21 EAT**
 
 > Research output, not financial advice. No trades are placed by this system. Stops are not guaranteed; gaps and slippage can exceed planned losses.
 
@@ -22,10 +22,10 @@ Headlines: none retrieved.
 | USOIL | 83.41 | WAIT (MARKET CLOSED) | — | — | — | — | — |
 | UKOIL | 89.95 | WAIT (MARKET CLOSED) | — | — | — | — | — |
 
-- XAUUSD: WAIT — data stale (2282 min old); market closed: weekend close; only 0.01R of room to the nearest support
-- XAGUSD: WAIT — data stale (2282 min old); market closed: weekend close
-- USOIL: WAIT — data stale (2282 min old); market closed: weekend close; D1 bias +0 and H4 bias -1 do not agree
-- UKOIL: WAIT — data stale (2282 min old); market closed: weekend close; D1 bias +0 and H4 bias -1 do not agree
+- XAUUSD: WAIT — data stale (2841 min old); market closed: weekend close; only 0.01R of room to the nearest support
+- XAGUSD: WAIT — data stale (2841 min old); market closed: weekend close
+- USOIL: WAIT — data stale (2841 min old); market closed: weekend close; D1 bias +0 and H4 bias -1 do not agree
+- UKOIL: WAIT — data stale (2841 min old); market closed: weekend close; D1 bias +0 and H4 bias -1 do not agree
 
 ## C. Morning signal review
 No BUY/SELL setups were issued this morning.

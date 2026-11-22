@@ -2,7 +2,7 @@
  "XAUUSD": {
   "key": "XAUUSD",
   "broker_symbol": "XAUUSD",
-  "ts": "2026-11-22T12:02:06.259070+00:00",
+  "ts": "2026-11-22T21:21:25.369787+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "bearish",
@@ -20,7 +20,7 @@
   "rr_to_obstacle": 0.01,
   "holding": "intraday to 2 days (H1 setup)",
   "invalidation": "H1 close above 3592.62 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-23T00:02:06.259070+00:00",
+  "expires_utc": "2026-11-23T09:21:25.369787+00:00",
   "event": "FOMC Member Williams Speaks (USD, Low) Tue 24 Nov 00:00 EAT",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
@@ -35,11 +35,11 @@
    "H1 ATR at 98.3th percentile"
   ],
   "reasons_wait": [
-   "data stale (2282 min old)",
+   "data stale (2841 min old)",
    "market closed: weekend close",
    "only 0.01R of room to the nearest support"
   ],
-  "score": 67,
+  "score": 62,
   "score_breakdown": {
    "htf_trend": "20/20",
    "technical": "10/15",
@@ -49,7 +49,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "0/5"
   },
   "risk": {
    "equity": 28.82,
@@ -141,37 +141,37 @@
    },
    "H4": {
     "close": 3515.4,
-    "ema20": 3664.33,
-    "ema50": 3792.17,
-    "ema200": 4001.67,
+    "ema20": 3664.35,
+    "ema50": 3792.18,
+    "ema200": 4001.8,
     "rsi14": 16.7,
-    "macd_hist": -12.662,
-    "atr14": 45.32,
+    "macd_hist": -12.666,
+    "atr14": 45.31,
     "bb_upper": 3892.38,
-    "bb_lower": 3475.21,
+    "bb_lower": 3475.23,
     "bias": -1
    },
    "H1": {
     "close": 3515.4,
-    "ema20": 3563.24,
-    "ema50": 3629.17,
-    "ema200": 3807.1,
-    "rsi14": 27.0,
-    "macd_hist": 0.468,
+    "ema20": 3563.26,
+    "ema50": 3629.18,
+    "ema200": 3807.11,
+    "rsi14": 26.9,
+    "macd_hist": 0.449,
     "atr14": 28.11,
-    "bb_upper": 3596.62,
-    "bb_lower": 3511.89,
+    "bb_upper": 3596.74,
+    "bb_lower": 3511.82,
     "bias": -1
    },
    "M15": {
     "close": 3515.4,
-    "ema20": 3526.16,
-    "ema50": 3543.97,
-    "ema200": 3630.23,
+    "ema20": 3526.18,
+    "ema50": 3544.0,
+    "ema200": 3630.25,
     "rsi14": 43.5,
-    "macd_hist": 1.672,
+    "macd_hist": 1.669,
     "atr14": 16.32,
-    "bb_upper": 3539.48,
+    "bb_upper": 3539.52,
     "bb_lower": 3504.92,
     "bias": -1
    },
@@ -193,7 +193,7 @@
  "XAGUSD": {
   "key": "XAGUSD",
   "broker_symbol": "XAGUSD",
-  "ts": "2026-11-22T12:02:06.259070+00:00",
+  "ts": "2026-11-22T21:21:25.369787+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "bearish",
@@ -211,7 +211,7 @@
   "rr_to_obstacle": null,
   "holding": "intraday to 2 days (H1 setup)",
   "invalidation": "H1 close above 42.62 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-23T00:02:06.259070+00:00",
+  "expires_utc": "2026-11-23T09:21:25.369787+00:00",
   "event": "FOMC Member Williams Speaks (USD, Low) Tue 24 Nov 00:00 EAT",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
@@ -223,10 +223,10 @@
    "H1 ATR at 90.8th percentile"
   ],
   "reasons_wait": [
-   "data stale (2282 min old)",
+   "data stale (2841 min old)",
    "market closed: weekend close"
   ],
-  "score": 69,
+  "score": 64,
   "score_breakdown": {
    "htf_trend": "20/20",
    "technical": "5/15",
@@ -236,7 +236,7 @@
    "costs": "4/10",
    "reward_risk": "7/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "0/5"
   },
   "risk": {
    "equity": 28.82,
@@ -325,7 +325,7 @@
     "close": 41.07,
     "ema20": 43.85,
     "ema50": 46.54,
-    "ema200": 52.505,
+    "ema200": 52.508,
     "rsi14": 18.9,
     "macd_hist": -0.2071,
     "atr14": 0.956,
@@ -336,13 +336,13 @@
    "H1": {
     "close": 41.07,
     "ema20": 41.87,
-    "ema50": 43.182,
+    "ema50": 43.181,
     "ema200": 46.906,
-    "rsi14": 35.1,
-    "macd_hist": -0.0061,
+    "rsi14": 35.2,
+    "macd_hist": -0.0059,
     "atr14": 0.626,
     "bb_upper": 42.785,
-    "bb_lower": 40.701,
+    "bb_lower": 40.7,
     "bias": -1
    },
    "M15": {
@@ -351,10 +351,10 @@
     "ema50": 41.433,
     "ema200": 43.168,
     "rsi14": 48.7,
-    "macd_hist": 0.0465,
+    "macd_hist": 0.0464,
     "atr14": 0.312,
     "bb_upper": 41.255,
-    "bb_lower": 40.621,
+    "bb_lower": 40.622,
     "bias": -1
    },
    "structure": {
@@ -375,7 +375,7 @@
  "USOIL": {
   "key": "USOIL",
   "broker_symbol": "USOIL",
-  "ts": "2026-11-22T12:02:06.259070+00:00",
+  "ts": "2026-11-22T21:21:25.369787+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
@@ -400,11 +400,11 @@
    "H1 ATR at 98.3th percentile"
   ],
   "reasons_wait": [
-   "data stale (2282 min old)",
+   "data stale (2841 min old)",
    "market closed: weekend close",
    "D1 bias +0 and H4 bias -1 do not agree"
   ],
-  "score": 22,
+  "score": 17,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
@@ -414,7 +414,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "0/5"
   },
   "risk": null,
   "executable": false,
@@ -477,12 +477,12 @@
     "close": 83.41,
     "ema20": 83.426,
     "ema50": 85.528,
-    "ema200": 90.912,
+    "ema200": 90.913,
     "rsi14": 46.0,
-    "macd_hist": 0.1968,
+    "macd_hist": 0.1966,
     "atr14": 1.321,
-    "bb_upper": 85.341,
-    "bb_lower": 80.953,
+    "bb_upper": 85.342,
+    "bb_lower": 80.951,
     "bias": -1
    },
    "H1": {
@@ -491,21 +491,21 @@
     "ema50": 82.944,
     "ema200": 85.723,
     "rsi14": 56.8,
-    "macd_hist": 0.1906,
+    "macd_hist": 0.1907,
     "atr14": 0.781,
-    "bb_upper": 83.936,
-    "bb_lower": 81.146,
+    "bb_upper": 83.937,
+    "bb_lower": 81.145,
     "bias": 0
    },
    "M15": {
     "close": 83.41,
-    "ema20": 83.202,
-    "ema50": 82.772,
+    "ema20": 83.201,
+    "ema50": 82.771,
     "ema200": 82.951,
     "rsi14": 57.6,
     "macd_hist": 0.0132,
-    "atr14": 0.382,
-    "bb_upper": 84.105,
+    "atr14": 0.381,
+    "bb_upper": 84.103,
     "bb_lower": 82.26,
     "bias": 0
    },
@@ -527,7 +527,7 @@
  "UKOIL": {
   "key": "UKOIL",
   "broker_symbol": "UKOIL",
-  "ts": "2026-11-22T12:02:06.259070+00:00",
+  "ts": "2026-11-22T21:21:25.369787+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
@@ -550,11 +550,11 @@
   "supporting": [],
   "contrary": [],
   "reasons_wait": [
-   "data stale (2282 min old)",
+   "data stale (2841 min old)",
    "market closed: weekend close",
    "D1 bias +0 and H4 bias -1 do not agree"
   ],
-  "score": 29,
+  "score": 24,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
@@ -564,7 +564,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "0/5"
   },
   "risk": null,
   "executable": false,
@@ -624,12 +624,12 @@
    },
    "H4": {
     "close": 89.95,
-    "ema20": 90.244,
-    "ema50": 92.429,
-    "ema200": 98.698,
+    "ema20": 90.245,
+    "ema50": 92.432,
+    "ema200": 98.699,
     "rsi14": 44.3,
-    "macd_hist": 0.1515,
-    "atr14": 1.398,
+    "macd_hist": 0.1518,
+    "atr14": 1.4,
     "bb_upper": 92.661,
     "bb_lower": 87.424,
     "bias": -1
@@ -638,7 +638,7 @@
     "close": 89.95,
     "ema20": 89.415,
     "ema50": 89.762,
-    "ema200": 92.671,
+    "ema200": 92.672,
     "rsi14": 55.0,
     "macd_hist": 0.1433,
     "atr14": 0.721,
