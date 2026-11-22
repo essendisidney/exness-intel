@@ -2,7 +2,7 @@
  "XAUUSD": {
   "key": "XAUUSD",
   "broker_symbol": "XAUUSD",
-  "ts": "2026-11-21T21:15:26.839878+00:00",
+  "ts": "2026-11-22T12:02:06.259070+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "bearish",
@@ -20,8 +20,8 @@
   "rr_to_obstacle": 0.01,
   "holding": "intraday to 2 days (H1 setup)",
   "invalidation": "H1 close above 3592.62 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-22T09:15:26.839878+00:00",
-  "event": "",
+  "expires_utc": "2026-11-23T00:02:06.259070+00:00",
+  "event": "FOMC Member Williams Speaks (USD, Low) Tue 24 Nov 00:00 EAT",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
    "H1 pullback to EMA20/50 zone",
@@ -35,11 +35,11 @@
    "H1 ATR at 98.3th percentile"
   ],
   "reasons_wait": [
-   "data stale (1395 min old)",
+   "data stale (2282 min old)",
    "market closed: weekend close",
    "only 0.01R of room to the nearest support"
   ],
-  "score": 62,
+  "score": 67,
   "score_breakdown": {
    "htf_trend": "20/20",
    "technical": "10/15",
@@ -49,7 +49,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "0/5"
+   "liquidity": "5/5"
   },
   "risk": {
    "equity": 28.82,
@@ -131,7 +131,7 @@
     "close": 3515.4,
     "ema20": 3911.12,
     "ema50": 4067.11,
-    "ema200": 4242.17,
+    "ema200": 4242.41,
     "rsi14": 21.6,
     "macd_hist": -38.476,
     "atr14": 101.15,
@@ -193,7 +193,7 @@
  "XAGUSD": {
   "key": "XAGUSD",
   "broker_symbol": "XAGUSD",
-  "ts": "2026-11-21T21:15:26.839878+00:00",
+  "ts": "2026-11-22T12:02:06.259070+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "bearish",
@@ -211,8 +211,8 @@
   "rr_to_obstacle": null,
   "holding": "intraday to 2 days (H1 setup)",
   "invalidation": "H1 close above 42.62 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-22T09:15:26.839878+00:00",
-  "event": "",
+  "expires_utc": "2026-11-23T00:02:06.259070+00:00",
+  "event": "FOMC Member Williams Speaks (USD, Low) Tue 24 Nov 00:00 EAT",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
    "H1 pullback to EMA20/50 zone",
@@ -223,10 +223,10 @@
    "H1 ATR at 90.8th percentile"
   ],
   "reasons_wait": [
-   "data stale (1395 min old)",
+   "data stale (2282 min old)",
    "market closed: weekend close"
   ],
-  "score": 64,
+  "score": 69,
   "score_breakdown": {
    "htf_trend": "20/20",
    "technical": "5/15",
@@ -236,7 +236,7 @@
    "costs": "4/10",
    "reward_risk": "7/10",
    "event_risk": "5/5",
-   "liquidity": "0/5"
+   "liquidity": "5/5"
   },
   "risk": {
    "equity": 28.82,
@@ -263,8 +263,8 @@
    "futures proxy: price differs from Exness CFD by a basis; levels are indicative only"
   ],
   "levels": {
-   "prev_day_high": 42.435,
-   "prev_day_low": 40.93,
+   "prev_day_high": 43.18,
+   "prev_day_low": 40.615,
    "session_high": null,
    "session_low": null,
    "support": [
@@ -310,15 +310,15 @@
   },
   "indicators": {
    "D1": {
-    "close": 41.035,
-    "ema20": 49.617,
-    "ema50": 54.642,
-    "ema200": 61.523,
+    "close": 41.07,
+    "ema20": 49.621,
+    "ema50": 54.644,
+    "ema200": 61.526,
     "rsi14": 21.5,
-    "macd_hist": -0.6317,
-    "atr14": 1.647,
-    "bb_upper": 56.767,
-    "bb_lower": 43.091,
+    "macd_hist": -0.6294,
+    "atr14": 1.67,
+    "bb_upper": 56.76,
+    "bb_lower": 43.102,
     "bias": -1
    },
    "H4": {
@@ -375,7 +375,7 @@
  "USOIL": {
   "key": "USOIL",
   "broker_symbol": "USOIL",
-  "ts": "2026-11-21T21:15:26.839878+00:00",
+  "ts": "2026-11-22T12:02:06.259070+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
@@ -394,17 +394,17 @@
   "holding": "",
   "invalidation": "",
   "expires_utc": null,
-  "event": "",
+  "event": "FOMC Member Williams Speaks (USD, Low) Tue 24 Nov 00:00 EAT",
   "supporting": [],
   "contrary": [
    "H1 ATR at 98.3th percentile"
   ],
   "reasons_wait": [
-   "data stale (1395 min old)",
+   "data stale (2282 min old)",
    "market closed: weekend close",
    "D1 bias +0 and H4 bias -1 do not agree"
   ],
-  "score": 17,
+  "score": 22,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
@@ -414,7 +414,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "0/5"
+   "liquidity": "5/5"
   },
   "risk": null,
   "executable": false,
@@ -423,8 +423,8 @@
    "futures proxy: price differs from Exness CFD by a basis; levels are indicative only"
   ],
   "levels": {
-   "prev_day_high": 84.35,
-   "prev_day_low": 81.55,
+   "prev_day_high": 84.07,
+   "prev_day_low": 80.78,
    "session_high": null,
    "session_low": null,
    "support": [
@@ -462,22 +462,22 @@
   },
   "indicators": {
    "D1": {
-    "close": 83.98,
-    "ema20": 89.442,
-    "ema50": 91.482,
-    "ema200": 85.931,
-    "rsi14": 36.8,
-    "macd_hist": -0.92,
-    "atr14": 4.052,
-    "bb_upper": 105.575,
-    "bb_lower": 77.573,
+    "close": 83.41,
+    "ema20": 89.387,
+    "ema50": 91.46,
+    "ema200": 85.932,
+    "rsi14": 35.5,
+    "macd_hist": -0.9564,
+    "atr14": 4.087,
+    "bb_upper": 105.61,
+    "bb_lower": 77.481,
     "bias": 0
    },
    "H4": {
     "close": 83.41,
     "ema20": 83.426,
     "ema50": 85.528,
-    "ema200": 90.911,
+    "ema200": 90.912,
     "rsi14": 46.0,
     "macd_hist": 0.1968,
     "atr14": 1.321,
@@ -527,7 +527,7 @@
  "UKOIL": {
   "key": "UKOIL",
   "broker_symbol": "UKOIL",
-  "ts": "2026-11-21T21:15:26.839878+00:00",
+  "ts": "2026-11-22T12:02:06.259070+00:00",
   "signal": "WAIT",
   "state": "MARKET CLOSED",
   "direction_text": "no D1/H4 agreement",
@@ -546,15 +546,15 @@
   "holding": "",
   "invalidation": "",
   "expires_utc": null,
-  "event": "",
+  "event": "FOMC Member Williams Speaks (USD, Low) Tue 24 Nov 00:00 EAT",
   "supporting": [],
   "contrary": [],
   "reasons_wait": [
-   "data stale (1395 min old)",
+   "data stale (2282 min old)",
    "market closed: weekend close",
    "D1 bias +0 and H4 bias -1 do not agree"
   ],
-  "score": 24,
+  "score": 29,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
@@ -564,7 +564,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "0/5"
+   "liquidity": "5/5"
   },
   "risk": null,
   "executable": false,
@@ -573,8 +573,8 @@
    "futures proxy: price differs from Exness CFD by a basis; levels are indicative only"
   ],
   "levels": {
-   "prev_day_high": 93.05,
-   "prev_day_low": 90.06,
+   "prev_day_high": 90.38,
+   "prev_day_low": 87.7,
    "session_high": null,
    "session_low": null,
    "support": [
@@ -611,15 +611,15 @@
   },
   "indicators": {
    "D1": {
-    "close": 92.57,
-    "ema20": 97.81,
-    "ema50": 99.991,
-    "ema200": 92.527,
-    "rsi14": 37.9,
-    "macd_hist": -0.8142,
-    "atr14": 4.398,
-    "bb_upper": 119.256,
-    "bb_lower": 81.513,
+    "close": 89.95,
+    "ema20": 97.561,
+    "ema50": 99.888,
+    "ema200": 92.507,
+    "rsi14": 34.2,
+    "macd_hist": -0.9814,
+    "atr14": 4.49,
+    "bb_upper": 119.375,
+    "bb_lower": 81.132,
     "bias": 0
    },
    "H4": {
