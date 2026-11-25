@@ -1,1 +1,1 @@
-{"XAUUSD": {"price": 3651.8, "signal": "WAIT", "state": "NO SETUP"}, "XAGUSD": {"price": 43.025, "signal": "WAIT", "state": "NO SETUP"}, "USOIL": {"price": 79.93, "signal": "WAIT", "state": "NO SETUP"}, "UKOIL": {"price": 86.33, "signal": "WAIT", "state": "NO SETUP"}}
+{"XAUUSD": {"price": 3548.9, "signal": "WAIT", "state": "NO SETUP"}, "XAGUSD": {"price": 40.745, "signal": "SELL", "state": "DEVELOPING"}, "USOIL": {"price": 81.63, "signal": "WAIT", "state": "NO SETUP"}, "UKOIL": {"price": 88.42, "signal": "WAIT", "state": "NO SETUP"}}
