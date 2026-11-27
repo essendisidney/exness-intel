@@ -2,7 +2,7 @@
  "XAUUSD": {
   "key": "XAUUSD",
   "broker_symbol": "XAUUSD",
-  "ts": "2026-11-26T13:15:54.687884+00:00",
+  "ts": "2026-11-27T00:08:24.283368+00:00",
   "signal": "WAIT",
   "state": "NO SETUP",
   "direction_text": "bearish",
@@ -20,7 +20,7 @@
   "rr_to_obstacle": 2.36,
   "holding": "intraday to 2 days (H1 setup)",
   "invalidation": "H1 close above 3640.61 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-27T01:15:54.687884+00:00",
+  "expires_utc": "2026-11-27T12:08:24.283368+00:00",
   "event": "French Prelim CPI m/m (EUR, Low) Fri 27 Nov 10:45 EAT",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
@@ -34,9 +34,9 @@
    "H1 ATR at 85.8th percentile"
   ],
   "reasons_wait": [
-   "data stale (496 min old)"
+   "data stale (1148 min old)"
   ],
-  "score": 69,
+  "score": 67,
   "score_breakdown": {
    "htf_trend": "20/20",
    "technical": "5/15",
@@ -46,7 +46,7 @@
    "costs": "4/10",
    "reward_risk": "7/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "3/5"
   },
   "risk": {
    "equity": 28.82,
@@ -73,10 +73,10 @@
    "futures proxy: price differs from Exness CFD by a basis; levels are indicative only"
   ],
   "levels": {
-   "prev_day_high": 3588.9,
-   "prev_day_low": 3425.2,
-   "session_high": 3634.7,
-   "session_low": 3578.8,
+   "prev_day_high": 3634.7,
+   "prev_day_low": 3578.8,
+   "session_high": null,
+   "session_low": null,
    "support": [
     3508.9,
     3453.8
@@ -131,15 +131,15 @@
   },
   "indicators": {
    "D1": {
-    "close": 3535.8,
-    "ema20": 3825.03,
-    "ema50": 4012.19,
-    "ema200": 4222.33,
-    "rsi14": 29.2,
-    "macd_hist": -35.643,
-    "atr14": 112.21,
-    "bb_upper": 4250.35,
-    "bb_lower": 3492.41,
+    "close": 3594.1,
+    "ema20": 3803.04,
+    "ema50": 3995.79,
+    "ema200": 4216.07,
+    "rsi14": 33.8,
+    "macd_hist": -28.724,
+    "atr14": 111.26,
+    "bb_upper": 4239.34,
+    "bb_lower": 3459.69,
     "bias": -1
    },
    "H4": {
@@ -196,7 +196,7 @@
  "XAGUSD": {
   "key": "XAGUSD",
   "broker_symbol": "XAGUSD",
-  "ts": "2026-11-26T13:15:54.687884+00:00",
+  "ts": "2026-11-27T00:08:24.283368+00:00",
   "signal": "WAIT",
   "state": "NO SETUP",
   "direction_text": "bearish",
@@ -214,7 +214,7 @@
   "rr_to_obstacle": 1.13,
   "holding": "intraday to 2 days (H1 setup)",
   "invalidation": "H1 close above 42.558 or an H4 CHoCH against the trend; expires 12h after issue if not triggered",
-  "expires_utc": "2026-11-27T01:15:54.687884+00:00",
+  "expires_utc": "2026-11-27T12:08:24.283368+00:00",
   "event": "French Prelim CPI m/m (EUR, Low) Fri 27 Nov 10:45 EAT",
   "supporting": [
    "D1 and H4 EMA stacks both bearish",
@@ -226,11 +226,11 @@
    "nearest opposing level only 1.13R away"
   ],
   "reasons_wait": [
-   "data stale (496 min old)",
+   "data stale (1148 min old)",
    "only 1.13R of room to the nearest support",
-   "score 54 below 60"
+   "score 52 below 60"
   ],
-  "score": 54,
+  "score": 52,
   "score_breakdown": {
    "htf_trend": "20/20",
    "technical": "5/15",
@@ -240,7 +240,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "3/5"
   },
   "risk": {
    "equity": 28.82,
@@ -267,10 +267,10 @@
    "futures proxy: price differs from Exness CFD by a basis; levels are indicative only"
   ],
   "levels": {
-   "prev_day_high": 40.052,
-   "prev_day_low": 40.052,
-   "session_high": 42.435,
-   "session_low": 41.075,
+   "prev_day_high": 42.515,
+   "prev_day_low": 41.075,
+   "session_high": null,
+   "session_low": null,
    "support": [
     41.83,
     40.973,
@@ -316,15 +316,15 @@
   },
   "indicators": {
    "D1": {
-    "close": 40.052,
-    "ema20": 47.439,
-    "ema50": 53.131,
-    "ema200": 60.922,
-    "rsi14": 25.5,
-    "macd_hist": -0.6642,
-    "atr14": 1.664,
-    "bb_upper": 56.289,
-    "bb_lower": 39.78,
+    "close": 41.725,
+    "ema20": 46.894,
+    "ema50": 52.684,
+    "ema200": 60.731,
+    "rsi14": 31.7,
+    "macd_hist": -0.5069,
+    "atr14": 1.721,
+    "bb_upper": 55.969,
+    "bb_lower": 39.052,
     "bias": -1
    },
    "H4": {
@@ -381,7 +381,7 @@
  "USOIL": {
   "key": "USOIL",
   "broker_symbol": "USOIL",
-  "ts": "2026-11-26T13:15:54.687884+00:00",
+  "ts": "2026-11-27T00:08:24.283368+00:00",
   "signal": "WAIT",
   "state": "NO SETUP",
   "direction_text": "no D1/H4 agreement",
@@ -404,10 +404,10 @@
   "supporting": [],
   "contrary": [],
   "reasons_wait": [
-   "data stale (496 min old)",
+   "data stale (1148 min old)",
    "D1 bias +0 and H4 bias +0 do not agree"
   ],
-  "score": 24,
+  "score": 22,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
@@ -417,7 +417,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "3/5"
   },
   "risk": null,
   "executable": false,
@@ -426,10 +426,10 @@
    "futures proxy: price differs from Exness CFD by a basis; levels are indicative only"
   ],
   "levels": {
-   "prev_day_high": 84.27,
-   "prev_day_low": 80.13,
-   "session_high": 84.48,
-   "session_low": 83.8,
+   "prev_day_high": 85.23,
+   "prev_day_low": 83.16,
+   "session_high": null,
+   "session_low": null,
    "support": [
     83.953,
     83.11,
@@ -485,15 +485,15 @@
   },
   "indicators": {
    "D1": {
-    "close": 83.68,
-    "ema20": 87.533,
-    "ema50": 90.412,
-    "ema200": 85.805,
-    "rsi14": 40.1,
-    "macd_hist": -0.5756,
-    "atr14": 3.996,
-    "bb_upper": 101.242,
-    "bb_lower": 76.052,
+    "close": 84.95,
+    "ema20": 87.287,
+    "ema50": 90.197,
+    "ema200": 85.796,
+    "rsi14": 42.9,
+    "macd_hist": -0.2701,
+    "atr14": 3.858,
+    "bb_upper": 98.876,
+    "bb_lower": 76.713,
     "bias": 0
    },
    "H4": {
@@ -550,7 +550,7 @@
  "UKOIL": {
   "key": "UKOIL",
   "broker_symbol": "UKOIL",
-  "ts": "2026-11-26T13:15:54.687884+00:00",
+  "ts": "2026-11-27T00:08:24.283368+00:00",
   "signal": "WAIT",
   "state": "NO SETUP",
   "direction_text": "no D1/H4 agreement",
@@ -573,10 +573,10 @@
   "supporting": [],
   "contrary": [],
   "reasons_wait": [
-   "data stale (496 min old)",
+   "data stale (1148 min old)",
    "D1 bias +0 and H4 bias +0 do not agree"
   ],
-  "score": 24,
+  "score": 22,
   "score_breakdown": {
    "htf_trend": "0/20",
    "technical": "0/15",
@@ -586,7 +586,7 @@
    "costs": "4/10",
    "reward_risk": "0/10",
    "event_risk": "5/5",
-   "liquidity": "5/5"
+   "liquidity": "3/5"
   },
   "risk": null,
   "executable": false,
@@ -595,10 +595,10 @@
    "futures proxy: price differs from Exness CFD by a basis; levels are indicative only"
   ],
   "levels": {
-   "prev_day_high": 94.77,
-   "prev_day_low": 89.5,
-   "session_high": 91.24,
-   "session_low": 90.49,
+   "prev_day_high": 92.04,
+   "prev_day_low": 89.77,
+   "session_high": null,
+   "session_low": null,
    "support": [
     90.445,
     89.005,
@@ -644,15 +644,15 @@
   },
   "indicators": {
    "D1": {
-    "close": 94.61,
-    "ema20": 96.295,
-    "ema50": 99.071,
-    "ema200": 92.496,
-    "rsi14": 44.7,
-    "macd_hist": -0.1938,
-    "atr14": 4.397,
-    "bb_upper": 111.94,
-    "bb_lower": 81.866,
+    "close": 91.68,
+    "ema20": 95.855,
+    "ema50": 98.782,
+    "ema200": 92.488,
+    "rsi14": 40.6,
+    "macd_hist": -0.091,
+    "atr14": 4.429,
+    "bb_upper": 108.453,
+    "bb_lower": 83.033,
     "bias": 0
    },
    "H4": {
